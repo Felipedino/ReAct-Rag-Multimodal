@@ -1,0 +1,9 @@
+# Python
+__pycache__/
+*.pyc
+
+# Caché de Wikipedia (pesada, se regenera con wiki.py)
+cache/
+
+# Notebooks
+.ipynb_checkpoints/
