@@ -103,6 +103,8 @@ Marca la pregunta como "mala" si ocurre cualquiera de estas cosas:
    otro país: "el compositor del himno nacional de Chile" es válido aunque el
    compositor sea español; pero una pregunta que solo habla del tabaco de un
    estado de Brasil no trata sobre Chile.
+8. El puente (la entidad que describe la pregunta) es un concepto genérico
+   ("la Tierra", "un estadio", "el territorio", "la Unesco") y no una entidad específica.
 
 Además, propone alias: otras formas válidas de escribir LA MISMA respuesta
 (nombre completo, sin nombre de pila, abreviatura, con o sin "de"). No pongas

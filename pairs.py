@@ -234,7 +234,7 @@ def es_desambiguacion(titulo: str, texto: str) -> bool:
 
 
 def motivo_descarte_titulo(titulo: str, mencion: str | None,
-                           semillas_otro: dict) -> str | None:
+                           semillas_otro: dict, titulo_A: str) -> str | None:
     """Motivo para descartar un candidato B sin llamar a la API, o None si pasa.
 
     `mencion` es el texto de su primera mención en la intro de A. Si no tiene
@@ -251,6 +251,10 @@ def motivo_descarte_titulo(titulo: str, mencion: str | None,
         return "panoramico"
     if titulo in semillas_otro:
         return "otro_grupo"
+    # Si el nombre de B está dentro del título de A ("Volcán Calbuco" ->
+    # "Calbuco"), la mención que calzó es el nombre del propio A, no un puente.
+    if buscar_mencion(quitar_parentesis(titulo), titulo_A):
+        return "en_titulo_A"
     if mencion is not None and not any(p[0].isupper() for p in mencion.split()):
         return "sin_mayuscula"
     return None
@@ -280,7 +284,8 @@ def buscar_B(pagina_A: dict, semillas_otro: dict, usados: set,
 
     Devuelve (datos de B o None, motivo). El motivo es "ok" o la razón por la
     que A no produjo par. `descartes` acumula por qué se descartó cada
-    candidato por título (fecha, anexo, panorámico, otro grupo, sin mayúscula).
+    candidato por título (fecha, anexo, panorámico, otro grupo, en título de A,
+    sin mayúscula).
 
     Los filtros van de más barato a más caro: primero los que solo miran el
     título y luego los que necesitan la página de B (≥2 llamadas cada una).
@@ -291,7 +296,8 @@ def buscar_B(pagina_A: dict, semillas_otro: dict, usados: set,
 
     validos = []
     for titulo, mencion in candidatos:
-        motivo = motivo_descarte_titulo(titulo, mencion, semillas_otro)
+        motivo = motivo_descarte_titulo(titulo, mencion, semillas_otro,
+                                        pagina_A["title"])
         if motivo:
             descartes[motivo] += 1
         else:
@@ -310,7 +316,7 @@ def buscar_B(pagina_A: dict, semillas_otro: dict, usados: set,
         final = pagina_B["title"]  # puede diferir si el link era una redirección
         if final == pagina_A["title"] or final in usados:
             continue
-        if (motivo_descarte_titulo(final, None, semillas_otro)
+        if (motivo_descarte_titulo(final, None, semillas_otro, pagina_A["title"])
                 or es_desambiguacion(final, pagina_B["text"])):
             continue
         if (len(pagina_B["text"]) < MIN_CHARS_B

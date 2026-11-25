@@ -467,6 +467,37 @@ Resultados de la corrida final (36,3 min, 5.881 llamadas; salida completa en
     "Estadio", "Unesco".
   - **Perú es el 58 % de no_chile_pocos** (Japón 24 % de no_chile_muchos).
 
+### Decisiones tras revisar la corrida de D4–D7 (24-11, noche)
+- **B cuyo nombre está en el título de A → se descarta** (todos los grupos). Ej.
+  "Ñuñoa → Ñuñoa (estación)", "Volcán Calbuco → Calbuco": la mención es el nombre
+  del propio A, no un puente real (~10 % de chile_muchos).
+- **Falsos negativos de D4 (Moái, Rongo rongo, Rano Raraku: su intro dice "Isla de
+  Pascua" y no "Chile") → no se parchan.** Agregar "pascua" o "rapa nui" solo a Chile
+  rompería la simetría del filtro (los países de control también pierden artículos
+  que nombran una región y no el país, y eso no se puede corregir esta noche).
+  chile_muchos ya tiene 148 pares, así que no hacen falta. Se declara como limitación.
+- **B genéricos con mayúscula ("Tierra", "Territorio", "Estadio", "Unesco") → los
+  revisa la verificación**, con una regla explícita en el prompt del verificador.
+- **Perú es el 58 % de no_chile_pocos → se mantiene y se reporta.** Al emparejar
+  hacia el tramo de 0 idiomas, el control se llena de artículos de países
+  hispanohablantes: en es.wikipedia, casi no hay artículos sin traducciones sobre
+  Japón o Francia (suelen ser traducciones). Poner un tope por país dejaría vacío
+  ese tramo y rompería el emparejamiento, que es más importante. Consecuencia para
+  el análisis: en "pocos", el contraste es en gran parte Chile vs. Perú (conocimiento
+  local latinoamericano en ambos lados). Se agrega un corte exploratorio
+  no_chile = Perú vs. resto.
+
+Implementación (corrida del 24-11, noche: 7,7 min, 1.195 llamadas):
+- **B en el título de A:** filtro de título `en_titulo_A`. Se usa la misma
+  búsqueda de mención que en la intro (palabra completa, sin importar
+  mayúsculas) del nombre de B sin paréntesis dentro del título de A. Se revisa
+  sobre el título del link y otra vez sobre el título final de B. Descarta
+  121–215 candidatos por celda; en la salida no queda ningún par así.
+- La regla 8 (puente genérico) se copió a `PROMPT_VERIFICACION` en questions.py.
+- Resultado: la regla D7 sigue en "muchos" = ≥ 21 (47 pares chilenos con
+  ≥ 40); chile_muchos junta 147 pares. Muestra: pocos 51/44/5, muchos 71/21/8,
+  igual en chile y no_chile. Perú es el 62 % de no_chile_pocos.
+
 ### questions.py — especificación lista (`specs/questions.md`)
 Subcomandos: lotes → [LLM] → filtrar → lotes_verif → [LLM, sesión nueva] → split → auditoria.
 Split después de la verificación y antes de cualquier experimento: por celda,
