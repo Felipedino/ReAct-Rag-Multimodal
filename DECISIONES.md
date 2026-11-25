@@ -527,6 +527,22 @@ lotes_verif, split, auditoria). Decisiones de implementación:
 - Los lotes se ordenan por `id`, así que mezclan celdas solo en los bordes
   (alfabético: chile_muchos, chile_pocos, ...). El generador no ve la celda igual.
 
+Corrida real (24-11, noche):
+- **Herramienta y modelo:** Claude Code. Un subagente Opus nuevo por lote,
+  5 en paralelo, con la instrucción "Lee data/lotes_gen/lote_XX.md y sigue las
+  instrucciones" (20 lotes). La verificación usó otros 16 subagentes Opus, también
+  nuevos (sin el contexto de la generación), con la misma instrucción sobre
+  `data/lotes_verif/`.
+- Los generadores escribieron un script propio para copiar las evidencias
+  carácter por carácter (con los espacios de ancho cero) y revisar las reglas
+  mecánicas antes de escribir. Por eso `formato`, `respuesta_no_en_B` y
+  `B_en_pregunta` descartaron 0.
+- filtrar: 400 → 305 (74 descartadas por el propio LLM, 17 `respuesta_en_A`).
+- Verificación: 75 malas de 305. Las reglas más citadas son la 3 (no requiere
+  ambos textos), la 2 (respuesta no única), la 6 (redacción) y la 7 (no trata del país).
+- split: las 4 celdas completan 5 dev + 40 test. La reserva queda en 18 / 13 /
+  16 / 3 (chile_pocos / chile_muchos / no_chile_pocos / no_chile_muchos).
+
 ### llm.py, agents.py, correr.py, evaluate.py — implementados (24-11)
 Probados localmente con un `llm` falso (sin GPU): parseo de acciones, Buscar con y
 sin página, Terminar, acción inválida, max_pasos, trazas, métricas, CSV y gráfico.
@@ -569,6 +585,14 @@ Falta la prueba real en Colab (`prueba_colab.ipynb`, 5 preguntas en `data/prueba
   por grupo. Ganancia pareada para react − directa, react − rag y rag − directa.
   Colores del gráfico: paleta categórica validada (azul, naranja, aqua; separación
   para daltonismo verificada con script).
+- **clasificar_error por observaciones (tras la prueba en Colab):** se clasifica
+  según si la respuesta correcta (o un alias) aparece en lo que el modelo leyó, no
+  según los títulos vistos. `Buscar[Ramón Carnicer]` cae en una desambiguación que
+  igual trae "Tárrega"; comparar títulos lo contaba como `no_encontro_B`. Orden:
+  formato → max_pasos/contexto → `leyo_mal` (vio la respuesta) → `no_encontro_B`
+  (alguna observación menciona a B) → `no_encontro_A`. En rag las trazas guardan
+  solo títulos, así que evaluate.py reconstruye el texto desde la caché con el
+  mismo recorte de 1500 caracteres (sin importar agents.py, que importa vLLM).
 
 ### Siguientes
 Prueba en Colab → dev con 1.5B y 7B → congelar prompts → test → notebook.

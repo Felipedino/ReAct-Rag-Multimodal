@@ -130,9 +130,16 @@ y el puente estén dentro de esos 1500 caracteres; ver specs/questions.md).
 - `clasificar_error(traza, par)` para react y rag, automático y simple:
   - `formato`: termino == "formato" o acciones_invalidas ≥ 3
   - `max_pasos` / `contexto`: según termino
-  - `no_encontro_A`: titulo_A no está en titulos_vistos
-  - `no_encontro_B`: vio A pero no titulo_B
-  - `leyo_mal`: vio B y respondió mal (lectura o razonamiento)
+  - `leyo_mal`: la respuesta correcta (o un alias) aparece, normalizada, en alguna
+    observación, pero respondió mal → falla de lectura o razonamiento.
+  - Si la respuesta nunca apareció en lo que leyó → falla de búsqueda:
+    - `no_encontro_A`: ninguna observación menciona el nombre de B (no llegó al dato
+      de A que identifica el puente)
+    - `no_encontro_B`: alguna observación menciona a B, pero nunca leyó la página de B
+      (ej. vio "Jørn Utzon" en la página de la Ópera y respondió de memoria)
+  - Por qué con observaciones y no con títulos: el agente puede llegar a B por una
+    desambiguación o una redirección ("Ramón Carnicer" es una desambiguación que
+    igual trae la respuesta), y comparar títulos lo contaría como no encontrado.
   Los tipos "alucinación" y "error del dataset" se asignan a mano en el análisis.
 - `grafico(tabla)`: matplotlib, EM por condición (barras agrupadas por celda), un
   panel por modelo. Guardar en `resultados/`.

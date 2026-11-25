@@ -16,7 +16,9 @@ from pathlib import Path
 
 import pandas as pd
 
-from questions import normalizar
+import wiki
+from pairs import introduccion, quitar_parentesis
+from questions import MAX_CHARS_OBS, normalizar
 
 RAIZ = Path(__file__).resolve().parent
 RESULTADOS = RAIZ / "resultados"
@@ -152,11 +154,38 @@ def ganancia(trazas: list[dict], a: str = "react", b: str = "directa") -> pd.Dat
 # Errores
 # ---------------------------------------------------------------------------
 
+def observaciones(traza: dict) -> list[str]:
+    """Textos que leyó el modelo en una traza de rag o react.
+
+    react los guarda en sus pasos. rag guarda solo los títulos, así que su texto
+    se reconstruye desde la caché de wiki.py con el mismo recorte que usa
+    agents.py (no se importa agents porque importa vLLM). Los saltos de línea y
+    espacios de ancho cero que agents.py limpia no importan: se normaliza igual.
+    """
+    if traza["condicion"] == "react":
+        return [p["observacion"] for p in traza["pasos"] if p.get("observacion")]
+    textos = []
+    for titulo in traza["titulos_vistos"]:
+        pagina = wiki.get_page(titulo)
+        if pagina:
+            textos.append(introduccion(pagina["text"])[:MAX_CHARS_OBS])
+    return textos
+
+
 def clasificar_error(traza: dict, par: dict) -> str | None:
     """Tipo de error de una traza de rag o react (None si acertó).
 
-    Automático y simple. "Alucinación" y "error del dataset" se asignan a mano
-    en el análisis. `par` es la pregunta del dataset (trae titulo_A y titulo_B).
+    Se mira lo que el modelo leyó, no los títulos: puede llegar a B por una
+    desambiguación o una redirección ("Ramón Carnicer" es una desambiguación
+    que igual trae la respuesta), y comparar títulos lo contaría como no
+    encontrado.
+    - leyo_mal: la respuesta correcta (o un alias) aparece en alguna
+      observación, pero respondió mal (lectura o razonamiento).
+    - Si nunca la vio, es falla de búsqueda: no_encontro_B si alguna
+      observación menciona a B (llegó al puente pero no a su página), y
+      no_encontro_A si ninguna lo menciona.
+    "Alucinación" y "error del dataset" se asignan a mano en el análisis.
+    `par` es la pregunta del dataset (trae titulo_B).
     """
     if traza["em"] == 1:
         return None
@@ -164,12 +193,14 @@ def clasificar_error(traza: dict, par: dict) -> str | None:
         return "formato"
     if traza["termino"] in ("max_pasos", "contexto"):
         return traza["termino"]
-    vistos = set(traza["titulos_vistos"])
-    if par["titulo_A"] not in vistos:
-        return "no_encontro_A"
-    if par["titulo_B"] not in vistos:
+    textos = observaciones(traza)
+    golds = traza["alias"] or [traza["respuesta_gold"]]
+    if any(contiene(texto, g) for texto in textos for g in golds):
+        return "leyo_mal"
+    nombre_B = quitar_parentesis(par["titulo_B"])
+    if any(contiene(texto, nombre_B) for texto in textos):
         return "no_encontro_B"
-    return "leyo_mal"
+    return "no_encontro_A"
 
 
 def errores(trazas: list[dict], preguntas: dict) -> pd.DataFrame:
