@@ -24,7 +24,7 @@ RAIZ = Path(__file__).resolve().parent
 RESULTADOS = RAIZ / "resultados"
 
 N_BOOTSTRAP = 1000
-ORDEN_MODELOS = ["1.5B", "3B", "7B"]
+ORDEN_MODELOS = ["1.5B", "3B", "7B", "14B"]
 ORDEN_CONDICIONES = ["directa", "rag", "react"]
 ORDEN_CELDAS = ["chile_pocos", "chile_muchos", "no_chile_pocos", "no_chile_muchos"]
 

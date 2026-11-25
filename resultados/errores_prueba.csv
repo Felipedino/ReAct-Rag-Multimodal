@@ -1,0 +1,7 @@
+id,modelo,condicion,celda,tipo,respuesta_modelo,respuesta_gold
+prueba_0,1.5B,rag,chile_muchos,no_encontro_A,Murcia,Tárrega
+prueba_1,1.5B,rag,chile_muchos,no_encontro_A,1848,1910
+prueba_2,1.5B,rag,chile_muchos,no_encontro_A,San Andrés de Angol,Madrid
+prueba_3,1.5B,rag,no_chile_muchos,no_encontro_A,Sydney,Copenhague
+prueba_1,1.5B,react,chile_muchos,no_encontro_A,2020,1910
+prueba_3,1.5B,react,no_chile_muchos,no_encontro_B,Kolding,Copenhague

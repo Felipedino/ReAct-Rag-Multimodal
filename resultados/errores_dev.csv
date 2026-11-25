@@ -1,0 +1,64 @@
+id,modelo,condicion,celda,tipo,respuesta_modelo,respuesta_gold
+chile_pocos_080,1.5B,rag,chile_pocos,no_encontro_A,2024,2023
+chile_pocos_062,1.5B,rag,chile_pocos,no_encontro_A,1998,2000
+chile_pocos_004,1.5B,rag,chile_pocos,no_encontro_A,1500 metros,145 m
+chile_pocos_092,1.5B,rag,chile_pocos,no_encontro_A,Río de la Plata,Estrecho de Todos los Santos
+chile_pocos_047,1.5B,rag,chile_pocos,no_encontro_A,Santiago,Valparaíso
+chile_muchos_021,1.5B,rag,chile_muchos,no_encontro_A,Nueva Gales del Sur,Holanda Septentrional
+chile_muchos_057,1.5B,rag,chile_muchos,no_encontro_A,"10.796,50 km",1600 km
+chile_muchos_053,1.5B,rag,chile_muchos,no_encontro_A,1826,1740
+chile_muchos_063,1.5B,rag,chile_muchos,no_encontro_A,1945,1989
+chile_muchos_078,1.5B,rag,chile_muchos,no_encontro_A,Montevideo,Cauquenes
+no_chile_pocos_023,1.5B,rag,no_chile_pocos,no_encontro_A,1970,1869
+no_chile_pocos_055,1.5B,rag,no_chile_pocos,no_encontro_A,1945,1868
+no_chile_pocos_064,1.5B,rag,no_chile_pocos,no_encontro_A,Perúismo,Podemos Perú
+no_chile_pocos_076,1.5B,rag,no_chile_pocos,no_encontro_A,Archipiélago de las Islas Velludas,Pelagias
+no_chile_muchos_004,1.5B,rag,no_chile_muchos,no_encontro_A,Organización para la Cooperación y el Desarrollo Económicos (OCDE),Academia Sueca
+no_chile_muchos_074,1.5B,rag,no_chile_muchos,no_encontro_A,París,Mâcon
+no_chile_muchos_081,1.5B,rag,no_chile_muchos,no_encontro_A,Londres,Rideau Hall
+no_chile_muchos_003,1.5B,rag,no_chile_muchos,no_encontro_A,París,Montagne-Charente
+no_chile_muchos_045,1.5B,rag,no_chile_muchos,leyo_mal,Milán,Pavía
+chile_pocos_080,1.5B,react,chile_pocos,no_encontro_B,Apruebo Dignidad,2023
+chile_pocos_062,1.5B,react,chile_pocos,max_pasos,,2000
+chile_pocos_004,1.5B,react,chile_pocos,no_encontro_A,Lago Caburgua,145 m
+chile_pocos_092,1.5B,react,chile_pocos,no_encontro_A,bautizado,Estrecho de Todos los Santos
+chile_pocos_047,1.5B,react,chile_pocos,no_encontro_B,Actriz chilena,Valparaíso
+chile_muchos_021,1.5B,react,chile_muchos,max_pasos,,Holanda Septentrional
+chile_muchos_057,1.5B,react,chile_muchos,no_encontro_B,Desierto de Atacama,1600 km
+chile_muchos_053,1.5B,react,chile_muchos,max_pasos,,1740
+chile_muchos_063,1.5B,react,chile_muchos,no_encontro_B,2011,1989
+chile_muchos_078,1.5B,react,chile_muchos,max_pasos,,Cauquenes
+no_chile_pocos_023,1.5B,react,no_chile_pocos,max_pasos,,1869
+no_chile_pocos_055,1.5B,react,no_chile_pocos,max_pasos,,1868
+no_chile_pocos_064,1.5B,react,no_chile_pocos,max_pasos,,Podemos Perú
+no_chile_pocos_076,1.5B,react,no_chile_pocos,max_pasos,,Pelagias
+no_chile_muchos_004,1.5B,react,no_chile_muchos,no_encontro_A,Álvaro Vargas Llosa,Academia Sueca
+no_chile_muchos_074,1.5B,react,no_chile_muchos,no_encontro_B,Morvan,Mâcon
+no_chile_muchos_081,1.5B,react,no_chile_muchos,max_pasos,,Rideau Hall
+no_chile_muchos_003,1.5B,react,no_chile_muchos,max_pasos,,Montagne-Charente
+no_chile_muchos_045,1.5B,react,no_chile_muchos,max_pasos,,Pavía
+chile_pocos_080,7B,rag,chile_pocos,no_encontro_A,2024,2023
+chile_pocos_062,7B,rag,chile_pocos,no_encontro_A,2015,2000
+chile_pocos_004,7B,rag,chile_pocos,no_encontro_A,188,145 m
+chile_pocos_092,7B,rag,chile_pocos,no_encontro_A,Río Gallegos,Estrecho de Todos los Santos
+chile_pocos_047,7B,rag,chile_pocos,no_encontro_A,Santiago,Valparaíso
+chile_muchos_021,7B,rag,chile_muchos,no_encontro_A,No hay respuesta en los textos proporcionados para esta pregunta.,Holanda Septentrional
+chile_muchos_057,7B,rag,chile_muchos,no_encontro_A,800,1600 km
+chile_muchos_053,7B,rag,chile_muchos,no_encontro_A,1541,1740
+chile_muchos_063,7B,rag,chile_muchos,no_encontro_A,1974,1989
+chile_muchos_078,7B,rag,chile_muchos,no_encontro_A,Santiago,Cauquenes
+no_chile_pocos_023,7B,rag,no_chile_pocos,no_encontro_A,1975,1869
+no_chile_pocos_049,7B,rag,no_chile_pocos,no_encontro_A,Huancavelica,provincia de Lima
+no_chile_pocos_064,7B,rag,no_chile_pocos,no_encontro_A,Frente Amplio,Podemos Perú
+no_chile_pocos_076,7B,rag,no_chile_pocos,no_encontro_A,Islas Eoliennes,Pelagias
+no_chile_muchos_004,7B,rag,no_chile_muchos,no_encontro_A,Universidad Nacional Mayor de San Marcos,Academia Sueca
+no_chile_muchos_074,7B,rag,no_chile_muchos,no_encontro_A,Saint-Étienne,Mâcon
+no_chile_muchos_081,7B,rag,no_chile_muchos,no_encontro_A,Buckingham Palace,Rideau Hall
+no_chile_muchos_003,7B,rag,no_chile_muchos,no_encontro_A,Le Havre,Montagne-Charente
+chile_pocos_092,7B,react,chile_pocos,no_encontro_B,San Gregorio,Estrecho de Todos los Santos
+chile_pocos_047,7B,react,chile_pocos,no_encontro_A,Santiago,Valparaíso
+chile_muchos_053,7B,react,chile_muchos,no_encontro_B,Putaendo,1740
+no_chile_pocos_055,7B,react,no_chile_pocos,leyo_mal,Información insuficiente,1868
+no_chile_pocos_076,7B,react,no_chile_pocos,no_encontro_A,Islas Canarias,Pelagias
+no_chile_muchos_004,7B,react,no_chile_muchos,no_encontro_A,Asociación de Academias de la Lengua Española,Academia Sueca
+no_chile_muchos_074,7B,react,no_chile_muchos,leyo_mal,Saona y Loira,Mâcon

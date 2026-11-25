@@ -1,0 +1,749 @@
+id,modelo,condicion,celda,tipo,respuesta_modelo,respuesta_gold
+chile_pocos_087,1.5B,rag,chile_pocos,no_encontro_A,1983,1926
+chile_pocos_039,1.5B,rag,chile_pocos,no_encontro_A,1833,Constitución de 1833
+chile_pocos_009,1.5B,rag,chile_pocos,no_encontro_A,Santiago,Arauco
+chile_pocos_011,1.5B,rag,chile_pocos,no_encontro_A,Mendoza,Valparaíso
+chile_pocos_069,1.5B,rag,chile_pocos,no_encontro_A,1981,2010
+chile_pocos_074,1.5B,rag,chile_pocos,no_encontro_A,Curitiba,Quinchao
+chile_pocos_040,1.5B,rag,chile_pocos,no_encontro_A,1971,1969
+chile_pocos_033,1.5B,rag,chile_pocos,no_encontro_A,Santiago,Viña del Mar
+chile_pocos_042,1.5B,rag,chile_pocos,no_encontro_A,Santa Cruz,Cachapoal
+chile_pocos_071,1.5B,rag,chile_pocos,no_encontro_A,Santiago,paltas
+chile_pocos_017,1.5B,rag,chile_pocos,no_encontro_A,Santiago,San Carlos
+chile_pocos_086,1.5B,rag,chile_pocos,no_encontro_B,1977,1974
+chile_pocos_000,1.5B,rag,chile_pocos,no_encontro_A,1741,1614
+chile_pocos_093,1.5B,rag,chile_pocos,no_encontro_A,Santiago,Voto
+chile_pocos_066,1.5B,rag,chile_pocos,no_encontro_A,1989,1890
+chile_pocos_060,1.5B,rag,chile_pocos,no_encontro_A,100,145 km
+chile_pocos_021,1.5B,rag,chile_pocos,no_encontro_A,Mar del Plata,Canal Señoret
+chile_pocos_023,1.5B,rag,chile_pocos,no_encontro_A,1997,1988
+chile_pocos_025,1.5B,rag,chile_pocos,no_encontro_A,1541,1894
+chile_pocos_094,1.5B,rag,chile_pocos,no_encontro_A,Gran Bota,Long Island
+chile_pocos_030,1.5B,rag,chile_pocos,no_encontro_A,1989,2017
+chile_pocos_052,1.5B,rag,chile_pocos,no_encontro_A,Confederación General de Trabajadores (CGT),Colegio de Profesores de Chile
+chile_pocos_014,1.5B,rag,chile_pocos,no_encontro_A,Comodoro Rivadavia,Fuerte Aguayo
+chile_pocos_015,1.5B,rag,chile_pocos,no_encontro_B,Antofagasta,Valdivia
+chile_pocos_049,1.5B,rag,chile_pocos,no_encontro_A,San Antonio Eloxochitlán,San Carlos
+chile_pocos_079,1.5B,rag,chile_pocos,no_encontro_A,Madrid,Armada de Chile
+chile_pocos_031,1.5B,rag,chile_pocos,no_encontro_A,1881,1987
+chile_pocos_006,1.5B,rag,chile_pocos,no_encontro_A,Norte Americana,cultura Chinchorro
+chile_pocos_065,1.5B,rag,chile_pocos,no_encontro_A,Carrizal Bajo,Birán
+chile_pocos_076,1.5B,rag,chile_pocos,no_encontro_A,Festival Internacional de Cine de Avignon,Biznaga de Oro
+chile_pocos_013,1.5B,rag,chile_pocos,no_encontro_A,Puerto de la Cruz,Hito Cero
+chile_pocos_057,1.5B,rag,chile_pocos,no_encontro_A,Tulancingo,La Serena
+chile_pocos_091,1.5B,rag,chile_pocos,no_encontro_A,1881,1884
+chile_pocos_059,1.5B,rag,chile_pocos,no_encontro_A,1820,1852
+chile_pocos_010,1.5B,rag,chile_pocos,no_encontro_B,Independencia,Macul
+chile_pocos_070,1.5B,rag,chile_pocos,leyo_mal,Libertador General Bernardo O'Higgins,Cardenal Caro
+chile_pocos_026,1.5B,rag,chile_pocos,no_encontro_A,Argentina,Región del Maule
+chile_muchos_074,1.5B,rag,chile_muchos,no_encontro_A,Pinifloras,Liliopsida
+chile_muchos_081,1.5B,rag,chile_muchos,no_encontro_A,"La comuna santiaguina donde se ubica el Aeropuerto Internacional Arturo Merino Benítez se llamó ""La Comuna",Las Barrancas
+chile_muchos_006,1.5B,rag,chile_muchos,no_encontro_A,Editorial Planeta,Editorial Sudamericana
+chile_muchos_012,1.5B,rag,chile_muchos,leyo_mal,Puerto Montt,Castro
+chile_muchos_085,1.5B,rag,chile_muchos,no_encontro_A,1958,1861
+chile_muchos_097,1.5B,rag,chile_muchos,no_encontro_A,Curanqui,Parral
+chile_muchos_096,1.5B,rag,chile_muchos,no_encontro_A,Amazonas,210 km
+chile_muchos_046,1.5B,rag,chile_muchos,no_encontro_A,Los Ángeles,El Loa
+chile_muchos_050,1.5B,rag,chile_muchos,no_encontro_B,Chillán,Región de Ñuble
+chile_muchos_051,1.5B,rag,chile_muchos,no_encontro_A,247,220 kilómetros
+chile_muchos_092,1.5B,rag,chile_muchos,no_encontro_A,1843,1826
+chile_muchos_001,1.5B,rag,chile_muchos,no_encontro_B,10.000 km²,"1511,6 km²"
+chile_muchos_002,1.5B,rag,chile_muchos,no_encontro_A,La Obra,La Florida
+chile_muchos_073,1.5B,rag,chile_muchos,leyo_mal,8°S,6°S
+chile_muchos_023,1.5B,rag,chile_muchos,no_encontro_B,1991,1994
+chile_muchos_025,1.5B,rag,chile_muchos,no_encontro_A,Solanaceae,Lauraceae
+chile_muchos_086,1.5B,rag,chile_muchos,no_encontro_A,siglo XVIII,siglo XVII
+chile_muchos_080,1.5B,rag,chile_muchos,no_encontro_A,120 km,20 km
+chile_muchos_039,1.5B,rag,chile_muchos,no_encontro_A,1999,27 de julio de 2021
+chile_muchos_059,1.5B,rag,chile_muchos,no_encontro_B,Viña del Mar,Cañete
+chile_muchos_019,1.5B,rag,chile_muchos,no_encontro_A,"18,2 millones de km²","20.405,1 km²"
+chile_muchos_079,1.5B,rag,chile_muchos,no_encontro_A,Santiago,Coyhaique
+chile_muchos_020,1.5B,rag,chile_muchos,no_encontro_A,1999,1951
+chile_muchos_004,1.5B,rag,chile_muchos,no_encontro_A,1967,2022
+chile_muchos_030,1.5B,rag,chile_muchos,no_encontro_B,11 de marzo de 1973,3 de noviembre de 1970
+chile_muchos_082,1.5B,rag,chile_muchos,leyo_mal,1981,1976
+chile_muchos_044,1.5B,rag,chile_muchos,no_encontro_A,PCCh,Revolución Democrática
+chile_muchos_005,1.5B,rag,chile_muchos,leyo_mal,Arica,Moquegua
+chile_muchos_070,1.5B,rag,chile_muchos,no_encontro_A,Santiago,Puerto Natales
+chile_muchos_094,1.5B,rag,chile_muchos,no_encontro_A,Puerto Deseado,Puerto Chacabuco
+chile_muchos_018,1.5B,rag,chile_muchos,no_encontro_A,Región de Valparaíso,Región del Maule
+chile_muchos_088,1.5B,rag,chile_muchos,no_encontro_A,minerales de Humberstone,caliche
+chile_muchos_076,1.5B,rag,chile_muchos,no_encontro_A,Mapudungún,Bosque de lechuzas
+chile_muchos_031,1.5B,rag,chile_muchos,no_encontro_A,río Plata,Weser
+chile_muchos_016,1.5B,rag,chile_muchos,no_encontro_A,1536,1881
+chile_muchos_087,1.5B,rag,chile_muchos,no_encontro_A,París,Lacio
+chile_muchos_022,1.5B,rag,chile_muchos,no_encontro_B,Tarapacá,provincia del Tamarugal
+no_chile_pocos_073,1.5B,rag,no_chile_pocos,no_encontro_A,Lima,Chalhuanca
+no_chile_pocos_080,1.5B,rag,no_chile_pocos,no_encontro_A,1987,2010
+no_chile_pocos_008,1.5B,rag,no_chile_pocos,no_encontro_A,Ontario,Quebec
+no_chile_pocos_010,1.5B,rag,no_chile_pocos,no_encontro_A,Buenos Aires,Ica
+no_chile_pocos_088,1.5B,rag,no_chile_pocos,no_encontro_A,1876,1903
+no_chile_pocos_095,1.5B,rag,no_chile_pocos,no_encontro_A,Ayacucho,Villa Rica de Oropesa
+no_chile_pocos_097,1.5B,rag,no_chile_pocos,no_encontro_A,2011,2003
+no_chile_pocos_040,1.5B,rag,no_chile_pocos,no_encontro_A,Valdivia,Emilia-Romaña
+no_chile_pocos_046,1.5B,rag,no_chile_pocos,no_encontro_A,1836,1541
+no_chile_pocos_048,1.5B,rag,no_chile_pocos,no_encontro_A,río Seille y río Dordogne,Ródano y Saona
+no_chile_pocos_092,1.5B,rag,no_chile_pocos,no_encontro_A,1000 km,812 km
+no_chile_pocos_000,1.5B,rag,no_chile_pocos,no_encontro_A,Simón Bolívar,Andrés de Santa Cruz
+no_chile_pocos_001,1.5B,rag,no_chile_pocos,no_encontro_A,Manuel Moreyra,Raúl Salazar
+no_chile_pocos_071,1.5B,rag,no_chile_pocos,no_encontro_A,Piura,Jerónimo de Silva
+no_chile_pocos_067,1.5B,rag,no_chile_pocos,no_encontro_A,París,Rennes
+no_chile_pocos_027,1.5B,rag,no_chile_pocos,no_encontro_A,Estrecho de Magallanes,estrecho de Tiquina
+no_chile_pocos_089,1.5B,rag,no_chile_pocos,no_encontro_A,La Prensa Americana,Voz Rebelde
+no_chile_pocos_079,1.5B,rag,no_chile_pocos,no_encontro_A,1889,1572
+no_chile_pocos_035,1.5B,rag,no_chile_pocos,no_encontro_A,Diócesis de Lima,Diócesis de Carabayllo
+no_chile_pocos_061,1.5B,rag,no_chile_pocos,no_encontro_A,Tegucigalpa,Pacasmayo
+no_chile_pocos_014,1.5B,rag,no_chile_pocos,no_encontro_A,La Libertad,Junín
+no_chile_pocos_077,1.5B,rag,no_chile_pocos,no_encontro_A,Sydney,Melbourne
+no_chile_pocos_016,1.5B,rag,no_chile_pocos,no_encontro_B,Bérgamo,Lombardía
+no_chile_pocos_004,1.5B,rag,no_chile_pocos,no_encontro_A,Juan Montenegro,Fernando Belaúnde Terry
+no_chile_pocos_031,1.5B,rag,no_chile_pocos,no_encontro_A,río Marañón,río Chili
+no_chile_pocos_096,1.5B,rag,no_chile_pocos,no_encontro_A,Ministerio de Defensa,Ministerio del Interior
+no_chile_pocos_036,1.5B,rag,no_chile_pocos,no_encontro_A,José María Balcázar,Ollanta Humala
+no_chile_pocos_005,1.5B,rag,no_chile_pocos,leyo_mal,Provincia de Lambayeque,Chiclayo
+no_chile_pocos_070,1.5B,rag,no_chile_pocos,no_encontro_A,París,La Rochela
+no_chile_pocos_084,1.5B,rag,no_chile_pocos,no_encontro_A,Keiko Fujimori,José Jerí
+no_chile_pocos_013,1.5B,rag,no_chile_pocos,no_encontro_B,1963,1938
+no_chile_pocos_060,1.5B,rag,no_chile_pocos,no_encontro_A,Castilla-León,Guipúzcoa
+no_chile_pocos_099,1.5B,rag,no_chile_pocos,no_encontro_A,1824,1574
+no_chile_pocos_069,1.5B,rag,no_chile_pocos,no_encontro_A,Lima,Callao
+no_chile_pocos_009,1.5B,rag,no_chile_pocos,no_encontro_A,2006,2010
+no_chile_pocos_074,1.5B,rag,no_chile_pocos,no_encontro_A,Lima Norte,Miraflores
+no_chile_pocos_032,1.5B,rag,no_chile_pocos,no_encontro_B,Gran Colombia,Congreso de Angostura
+no_chile_pocos_012,1.5B,rag,no_chile_pocos,leyo_mal,distrito de San Martín de Porres,San Luis
+no_chile_pocos_090,1.5B,rag,no_chile_pocos,no_encontro_A,Lima Norte,Barranco
+no_chile_muchos_051,1.5B,rag,no_chile_muchos,no_encontro_A,Quebec,Saint-Malo
+no_chile_muchos_027,1.5B,rag,no_chile_muchos,no_encontro_A,Cartoon Network,TV Asahi
+no_chile_muchos_024,1.5B,rag,no_chile_muchos,no_encontro_A,París,Metz
+no_chile_muchos_013,1.5B,rag,no_chile_muchos,no_encontro_A,Hezbolá,Gaimu-shō
+no_chile_muchos_065,1.5B,rag,no_chile_muchos,no_encontro_A,1901,1927
+no_chile_muchos_092,1.5B,rag,no_chile_muchos,no_encontro_A,1997,2010
+no_chile_muchos_095,1.5B,rag,no_chile_muchos,no_encontro_A,Larry Ellison,Christopher Sholes
+no_chile_muchos_011,1.5B,rag,no_chile_muchos,no_encontro_A,100,50 km
+no_chile_muchos_089,1.5B,rag,no_chile_muchos,no_encontro_A,Palacio del Luxemburgo,Palais-Royal
+no_chile_muchos_022,1.5B,rag,no_chile_muchos,no_encontro_A,768,710
+no_chile_muchos_047,1.5B,rag,no_chile_muchos,no_encontro_A,Aleutinea,isla de Sajalín
+no_chile_muchos_063,1.5B,rag,no_chile_muchos,no_encontro_A,16,160
+no_chile_muchos_032,1.5B,rag,no_chile_muchos,no_encontro_A,Japonés,yūrei
+no_chile_muchos_019,1.5B,rag,no_chile_muchos,no_encontro_A,Studio Devaloka,Mistwalker
+no_chile_muchos_094,1.5B,rag,no_chile_muchos,no_encontro_A,1868,1185
+no_chile_muchos_015,1.5B,rag,no_chile_muchos,no_encontro_A,1519,17 de enero de 2015
+no_chile_muchos_010,1.5B,rag,no_chile_muchos,no_encontro_A,1952,1951
+no_chile_muchos_085,1.5B,rag,no_chile_muchos,no_encontro_A,Bologna,Casale Corte Cerro
+no_chile_muchos_084,1.5B,rag,no_chile_muchos,no_encontro_A,Egipto,Turquía
+no_chile_muchos_039,1.5B,rag,no_chile_muchos,no_encontro_A,Sichuan,Setagaya
+no_chile_muchos_079,1.5B,rag,no_chile_muchos,no_encontro_A,12,31
+no_chile_muchos_087,1.5B,rag,no_chile_muchos,no_encontro_A,París,Dijon
+no_chile_muchos_086,1.5B,rag,no_chile_muchos,no_encontro_A,1000 metros,1829 metros
+no_chile_muchos_012,1.5B,rag,no_chile_muchos,no_encontro_A,Mona Lisa,La Última Cena
+no_chile_muchos_076,1.5B,rag,no_chile_muchos,no_encontro_A,Bruselas,Lille
+no_chile_muchos_040,1.5B,rag,no_chile_muchos,no_encontro_A,Suez,estrecho de Bab el-Mandeb
+no_chile_muchos_090,1.5B,rag,no_chile_muchos,no_encontro_A,Rus de Kiev,Estados Pontificios
+no_chile_muchos_026,1.5B,rag,no_chile_muchos,no_encontro_A,1830,1876
+no_chile_muchos_083,1.5B,rag,no_chile_muchos,no_encontro_A,Antigua Egipto,Arabia Pétrea
+no_chile_muchos_048,1.5B,rag,no_chile_muchos,no_encontro_A,Hokkaido,Kansai
+no_chile_muchos_067,1.5B,rag,no_chile_muchos,no_encontro_A,Stanley Kubrick,Bernardo Bertolucci
+no_chile_muchos_043,1.5B,rag,no_chile_muchos,no_encontro_A,Tokio,Sapporo
+no_chile_muchos_058,1.5B,rag,no_chile_muchos,no_encontro_A,Sídney,Borujerd
+no_chile_muchos_069,1.5B,rag,no_chile_muchos,no_encontro_A,Oradour-sur-Glane,Múnich
+no_chile_muchos_072,1.5B,rag,no_chile_muchos,no_encontro_A,Cistercium,Amiens
+no_chile_muchos_038,1.5B,rag,no_chile_muchos,no_encontro_A,Japón,Cantón
+chile_pocos_087,1.5B,react,chile_pocos,no_encontro_A,1983,1926
+chile_pocos_039,1.5B,react,chile_pocos,no_encontro_A,Constitución Política de la República de Chile de 1980,Constitución de 1833
+chile_pocos_009,1.5B,react,chile_pocos,no_encontro_B,La Araucanía,Arauco
+chile_pocos_011,1.5B,react,chile_pocos,max_pasos,,Valparaíso
+chile_pocos_069,1.5B,react,chile_pocos,no_encontro_B,1970,2010
+chile_pocos_040,1.5B,react,chile_pocos,max_pasos,,1969
+chile_pocos_033,1.5B,react,chile_pocos,leyo_mal,Santiago,Viña del Mar
+chile_pocos_042,1.5B,react,chile_pocos,max_pasos,,Cachapoal
+chile_pocos_071,1.5B,react,chile_pocos,max_pasos,,paltas
+chile_pocos_017,1.5B,react,chile_pocos,no_encontro_B,Ancud,San Carlos
+chile_pocos_093,1.5B,react,chile_pocos,leyo_mal,Solórzano,Voto
+chile_pocos_060,1.5B,react,chile_pocos,max_pasos,,145 km
+chile_pocos_023,1.5B,react,chile_pocos,max_pasos,,1988
+chile_pocos_025,1.5B,react,chile_pocos,max_pasos,,1894
+chile_pocos_094,1.5B,react,chile_pocos,max_pasos,,Long Island
+chile_pocos_052,1.5B,react,chile_pocos,no_encontro_A,Federación de Educadores Chile,Colegio de Profesores de Chile
+chile_pocos_014,1.5B,react,chile_pocos,no_encontro_B,Concón,Fuerte Aguayo
+chile_pocos_072,1.5B,react,chile_pocos,no_encontro_B,2002,1959
+chile_pocos_079,1.5B,react,chile_pocos,max_pasos,,Armada de Chile
+chile_pocos_031,1.5B,react,chile_pocos,max_pasos,,1987
+chile_pocos_006,1.5B,react,chile_pocos,no_encontro_A,Antofagasta,cultura Chinchorro
+chile_pocos_065,1.5B,react,chile_pocos,max_pasos,,Birán
+chile_pocos_076,1.5B,react,chile_pocos,max_pasos,,Biznaga de Oro
+chile_pocos_013,1.5B,react,chile_pocos,max_pasos,,Hito Cero
+chile_pocos_057,1.5B,react,chile_pocos,no_encontro_B,Talca,La Serena
+chile_pocos_048,1.5B,react,chile_pocos,no_encontro_B,Comuna afectada por aluvión de Quebrada de Macul,Puente Alto
+chile_pocos_059,1.5B,react,chile_pocos,no_encontro_A,San Javier,1852
+chile_pocos_010,1.5B,react,chile_pocos,max_pasos,,Macul
+chile_pocos_026,1.5B,react,chile_pocos,no_encontro_B,Curicó,Región del Maule
+chile_muchos_074,1.5B,react,chile_muchos,no_encontro_B,Liliales,Liliopsida
+chile_muchos_081,1.5B,react,chile_muchos,no_encontro_B,Pudahuel,Las Barrancas
+chile_muchos_006,1.5B,react,chile_muchos,no_encontro_B,Novela de Antonio Skármeta,Editorial Sudamericana
+chile_muchos_012,1.5B,react,chile_muchos,no_encontro_B,Quellón,Castro
+chile_muchos_085,1.5B,react,chile_muchos,max_pasos,,1861
+chile_muchos_097,1.5B,react,chile_muchos,max_pasos,,Parral
+chile_muchos_096,1.5B,react,chile_muchos,formato,,210 km
+chile_muchos_046,1.5B,react,chile_muchos,no_encontro_B,Antofagasta,El Loa
+chile_muchos_050,1.5B,react,chile_muchos,no_encontro_A,Santiago,Región de Ñuble
+chile_muchos_051,1.5B,react,chile_muchos,no_encontro_B,Petorca,220 kilómetros
+chile_muchos_092,1.5B,react,chile_muchos,max_pasos,,1826
+chile_muchos_001,1.5B,react,chile_muchos,max_pasos,,"1511,6 km²"
+chile_muchos_002,1.5B,react,chile_muchos,max_pasos,,La Florida
+chile_muchos_073,1.5B,react,chile_muchos,no_encontro_B,25°S,6°S
+chile_muchos_067,1.5B,react,chile_muchos,max_pasos,,1853
+chile_muchos_025,1.5B,react,chile_muchos,no_encontro_A,Platanares,Lauraceae
+chile_muchos_086,1.5B,react,chile_muchos,no_encontro_A,No se encontró,siglo XVII
+chile_muchos_080,1.5B,react,chile_muchos,max_pasos,,20 km
+chile_muchos_039,1.5B,react,chile_muchos,formato,,27 de julio de 2021
+chile_muchos_059,1.5B,react,chile_muchos,max_pasos,,Cañete
+chile_muchos_019,1.5B,react,chile_muchos,leyo_mal,Norte Grande de Chile,"20.405,1 km²"
+chile_muchos_020,1.5B,react,chile_muchos,max_pasos,,1951
+chile_muchos_004,1.5B,react,chile_muchos,no_encontro_A,1967,2022
+chile_muchos_030,1.5B,react,chile_muchos,max_pasos,,3 de noviembre de 1970
+chile_muchos_082,1.5B,react,chile_muchos,max_pasos,,1976
+chile_muchos_044,1.5B,react,chile_muchos,max_pasos,,Revolución Democrática
+chile_muchos_005,1.5B,react,chile_muchos,no_encontro_A,Tarapacá,Moquegua
+chile_muchos_070,1.5B,react,chile_muchos,no_encontro_B,Cochrane,Puerto Natales
+chile_muchos_094,1.5B,react,chile_muchos,max_pasos,,Puerto Chacabuco
+chile_muchos_018,1.5B,react,chile_muchos,max_pasos,,Región del Maule
+chile_muchos_058,1.5B,react,chile_muchos,no_encontro_B,Mendoza,Provincia de Punilla
+chile_muchos_088,1.5B,react,chile_muchos,max_pasos,,caliche
+chile_muchos_011,1.5B,react,chile_muchos,max_pasos,,1957
+chile_muchos_076,1.5B,react,chile_muchos,max_pasos,,Bosque de lechuzas
+chile_muchos_016,1.5B,react,chile_muchos,max_pasos,,1881
+no_chile_pocos_073,1.5B,react,no_chile_pocos,no_encontro_B,Lima,Chalhuanca
+no_chile_pocos_080,1.5B,react,no_chile_pocos,max_pasos,,2010
+no_chile_pocos_008,1.5B,react,no_chile_pocos,max_pasos,,Quebec
+no_chile_pocos_010,1.5B,react,no_chile_pocos,no_encontro_B,Nasca,Ica
+no_chile_pocos_088,1.5B,react,no_chile_pocos,no_encontro_A,1876,1903
+no_chile_pocos_095,1.5B,react,no_chile_pocos,leyo_mal,Huancavelica,Villa Rica de Oropesa
+no_chile_pocos_097,1.5B,react,no_chile_pocos,max_pasos,,2003
+no_chile_pocos_040,1.5B,react,no_chile_pocos,no_encontro_B,Bolonia,Emilia-Romaña
+no_chile_pocos_046,1.5B,react,no_chile_pocos,max_pasos,,1541
+no_chile_pocos_048,1.5B,react,no_chile_pocos,leyo_mal,"ródano, saona",Ródano y Saona
+no_chile_pocos_092,1.5B,react,no_chile_pocos,max_pasos,,812 km
+no_chile_pocos_000,1.5B,react,no_chile_pocos,max_pasos,,Andrés de Santa Cruz
+no_chile_pocos_001,1.5B,react,no_chile_pocos,no_encontro_B,Manuel Moreyra y Paz Soldán,Raúl Salazar
+no_chile_pocos_071,1.5B,react,no_chile_pocos,leyo_mal,Huancayo,Jerónimo de Silva
+no_chile_pocos_067,1.5B,react,no_chile_pocos,max_pasos,,Rennes
+no_chile_pocos_026,1.5B,react,no_chile_pocos,max_pasos,,Sidi Bouzid
+no_chile_pocos_027,1.5B,react,no_chile_pocos,no_encontro_B,Lago Titicaca,estrecho de Tiquina
+no_chile_pocos_089,1.5B,react,no_chile_pocos,max_pasos,,Voz Rebelde
+no_chile_pocos_061,1.5B,react,no_chile_pocos,no_encontro_B,La Libertad,Pacasmayo
+no_chile_pocos_014,1.5B,react,no_chile_pocos,no_encontro_B,Tarma,Junín
+no_chile_pocos_077,1.5B,react,no_chile_pocos,no_encontro_A,Congregación de Jesús,Melbourne
+no_chile_pocos_016,1.5B,react,no_chile_pocos,no_encontro_B,Bérgamo,Lombardía
+no_chile_pocos_004,1.5B,react,no_chile_pocos,leyo_mal,Acción Popular,Fernando Belaúnde Terry
+no_chile_pocos_096,1.5B,react,no_chile_pocos,max_pasos,,Ministerio del Interior
+no_chile_pocos_036,1.5B,react,no_chile_pocos,max_pasos,,Ollanta Humala
+no_chile_pocos_070,1.5B,react,no_chile_pocos,no_encontro_A,Île-de-France,La Rochela
+no_chile_pocos_084,1.5B,react,no_chile_pocos,max_pasos,,José Jerí
+no_chile_pocos_013,1.5B,react,no_chile_pocos,no_encontro_B,"2016, Gambia",1938
+no_chile_pocos_060,1.5B,react,no_chile_pocos,no_encontro_B,Arequipa,Guipúzcoa
+no_chile_pocos_099,1.5B,react,no_chile_pocos,max_pasos,,1574
+no_chile_pocos_032,1.5B,react,no_chile_pocos,max_pasos,,Congreso de Angostura
+no_chile_muchos_051,1.5B,react,no_chile_muchos,max_pasos,,Saint-Malo
+no_chile_muchos_027,1.5B,react,no_chile_muchos,no_encontro_A,TV por Cable,TV Asahi
+no_chile_muchos_024,1.5B,react,no_chile_muchos,max_pasos,,Metz
+no_chile_muchos_065,1.5B,react,no_chile_muchos,max_pasos,,1927
+no_chile_muchos_092,1.5B,react,no_chile_muchos,max_pasos,,2010
+no_chile_muchos_098,1.5B,react,no_chile_muchos,max_pasos,,Tratado de París
+no_chile_muchos_095,1.5B,react,no_chile_muchos,no_encontro_B,Larry Ellison,Christopher Sholes
+no_chile_muchos_011,1.5B,react,no_chile_muchos,leyo_mal,Barumini,50 km
+no_chile_muchos_089,1.5B,react,no_chile_muchos,max_pasos,,Palais-Royal
+no_chile_muchos_022,1.5B,react,no_chile_muchos,max_pasos,,710
+no_chile_muchos_047,1.5B,react,no_chile_muchos,no_encontro_A,Península de Kamchatka y Japón,isla de Sajalín
+no_chile_muchos_032,1.5B,react,no_chile_muchos,max_pasos,,yūrei
+no_chile_muchos_019,1.5B,react,no_chile_muchos,max_pasos,,Mistwalker
+no_chile_muchos_094,1.5B,react,no_chile_muchos,max_pasos,,1185
+no_chile_muchos_009,1.5B,react,no_chile_muchos,formato,,Palermo
+no_chile_muchos_015,1.5B,react,no_chile_muchos,no_encontro_B,Denominación anterior Blois,17 de enero de 2015
+no_chile_muchos_010,1.5B,react,no_chile_muchos,max_pasos,,1951
+no_chile_muchos_085,1.5B,react,no_chile_muchos,max_pasos,,Casale Corte Cerro
+no_chile_muchos_084,1.5B,react,no_chile_muchos,no_encontro_B,Burundi,Turquía
+no_chile_muchos_039,1.5B,react,no_chile_muchos,max_pasos,,Setagaya
+no_chile_muchos_087,1.5B,react,no_chile_muchos,max_pasos,,Dijon
+no_chile_muchos_086,1.5B,react,no_chile_muchos,no_encontro_B,río Áqaba,1829 metros
+no_chile_muchos_012,1.5B,react,no_chile_muchos,max_pasos,,La Última Cena
+no_chile_muchos_076,1.5B,react,no_chile_muchos,no_encontro_B,Cambrai,Lille
+no_chile_muchos_040,1.5B,react,no_chile_muchos,max_pasos,,estrecho de Bab el-Mandeb
+no_chile_muchos_014,1.5B,react,no_chile_muchos,no_encontro_A,1949,2002
+no_chile_muchos_026,1.5B,react,no_chile_muchos,no_encontro_B,1946,1876
+no_chile_muchos_083,1.5B,react,no_chile_muchos,no_encontro_A,Península de Gibraltar,Arabia Pétrea
+no_chile_muchos_048,1.5B,react,no_chile_muchos,no_encontro_B,Osaka,Kansai
+no_chile_muchos_067,1.5B,react,no_chile_muchos,max_pasos,,Bernardo Bertolucci
+no_chile_muchos_043,1.5B,react,no_chile_muchos,max_pasos,,Sapporo
+no_chile_muchos_058,1.5B,react,no_chile_muchos,max_pasos,,Borujerd
+no_chile_muchos_069,1.5B,react,no_chile_muchos,no_encontro_A,Oradour-sur-Glane,Múnich
+no_chile_muchos_072,1.5B,react,no_chile_muchos,max_pasos,,Amiens
+no_chile_muchos_038,1.5B,react,no_chile_muchos,no_encontro_B,Qi xi,Cantón
+chile_pocos_087,3B,rag,chile_pocos,no_encontro_A,1954,1926
+chile_pocos_039,3B,rag,chile_pocos,no_encontro_A,1833,Constitución de 1833
+chile_pocos_009,3B,rag,chile_pocos,no_encontro_A,Antofagasta,Arauco
+chile_pocos_011,3B,rag,chile_pocos,no_encontro_A,San Bartolomé de Chillán,Valparaíso
+chile_pocos_069,3B,rag,chile_pocos,no_encontro_A,1973,2010
+chile_pocos_074,3B,rag,chile_pocos,no_encontro_A,Brasilia,Quinchao
+chile_pocos_040,3B,rag,chile_pocos,no_encontro_A,1971,1969
+chile_pocos_033,3B,rag,chile_pocos,no_encontro_A,Ciudad de México,Viña del Mar
+chile_pocos_042,3B,rag,chile_pocos,no_encontro_A,Santa Cruz,Cachapoal
+chile_pocos_071,3B,rag,chile_pocos,no_encontro_A,Zepithus,paltas
+chile_pocos_017,3B,rag,chile_pocos,no_encontro_A,San Pedro de Múcara,San Carlos
+chile_pocos_086,3B,rag,chile_pocos,no_encontro_B,1977,1974
+chile_pocos_000,3B,rag,chile_pocos,no_encontro_A,1747,1614
+chile_pocos_093,3B,rag,chile_pocos,no_encontro_A,Santillana del Mar,Voto
+chile_pocos_001,3B,rag,chile_pocos,leyo_mal,Provincia de Diguillín,Llanquihue
+chile_pocos_066,3B,rag,chile_pocos,no_encontro_A,1854,1890
+chile_pocos_060,3B,rag,chile_pocos,no_encontro_A,2000,145 km
+chile_pocos_021,3B,rag,chile_pocos,no_encontro_A,Sin información,Canal Señoret
+chile_pocos_023,3B,rag,chile_pocos,no_encontro_A,1891,1988
+chile_pocos_025,3B,rag,chile_pocos,no_encontro_A,1541,1894
+chile_pocos_030,3B,rag,chile_pocos,no_encontro_A,2020,2017
+chile_pocos_052,3B,rag,chile_pocos,no_encontro_A,Federación de Trabajadores de la Educación (FTE),Colegio de Profesores de Chile
+chile_pocos_014,3B,rag,chile_pocos,no_encontro_A,La Tablada,Fuerte Aguayo
+chile_pocos_072,3B,rag,chile_pocos,leyo_mal,1962,1959
+chile_pocos_015,3B,rag,chile_pocos,no_encontro_B,Antofagasta,Valdivia
+chile_pocos_049,3B,rag,chile_pocos,no_encontro_A,San Antonio Eloxochitlán,San Carlos
+chile_pocos_079,3B,rag,chile_pocos,no_encontro_A,La Corte Suprema de Justicia,Armada de Chile
+chile_pocos_031,3B,rag,chile_pocos,no_encontro_A,1989,1987
+chile_pocos_006,3B,rag,chile_pocos,no_encontro_A,Antofagasta,cultura Chinchorro
+chile_pocos_065,3B,rag,chile_pocos,no_encontro_A,Carrizal Bajo,Birán
+chile_pocos_076,3B,rag,chile_pocos,no_encontro_A,Piola,Biznaga de Oro
+chile_pocos_013,3B,rag,chile_pocos,no_encontro_A,Panamericana Northwest,Hito Cero
+chile_pocos_057,3B,rag,chile_pocos,no_encontro_A,Tulancingo,La Serena
+chile_pocos_091,3B,rag,chile_pocos,no_encontro_A,1881,1884
+chile_pocos_059,3B,rag,chile_pocos,no_encontro_A,1523,1852
+chile_pocos_010,3B,rag,chile_pocos,no_encontro_B,San Joaquín,Macul
+chile_pocos_070,3B,rag,chile_pocos,leyo_mal,Libertador General Bernardo O'Higgins,Cardenal Caro
+chile_pocos_026,3B,rag,chile_pocos,no_encontro_A,Región de Valdivia,Región del Maule
+chile_muchos_074,3B,rag,chile_muchos,no_encontro_A,Conos,Liliopsida
+chile_muchos_081,3B,rag,chile_muchos,no_encontro_A,Santiago International Airport,Las Barrancas
+chile_muchos_006,3B,rag,chile_muchos,no_encontro_A,Planeta,Editorial Sudamericana
+chile_muchos_012,3B,rag,chile_muchos,leyo_mal,Puerto Montt,Castro
+chile_muchos_085,3B,rag,chile_muchos,no_encontro_A,1897,1861
+chile_muchos_097,3B,rag,chile_muchos,no_encontro_A,La California,Parral
+chile_muchos_096,3B,rag,chile_muchos,no_encontro_A,1.300 km,210 km
+chile_muchos_046,3B,rag,chile_muchos,no_encontro_A,Coquimbo,El Loa
+chile_muchos_050,3B,rag,chile_muchos,no_encontro_B,Tarapacá,Región de Ñuble
+chile_muchos_051,3B,rag,chile_muchos,no_encontro_A,918,220 kilómetros
+chile_muchos_092,3B,rag,chile_muchos,no_encontro_A,1843,1826
+chile_muchos_001,3B,rag,chile_muchos,no_encontro_B,14.300 km²,"1511,6 km²"
+chile_muchos_002,3B,rag,chile_muchos,no_encontro_A,San José de Maipo,La Florida
+chile_muchos_073,3B,rag,chile_muchos,leyo_mal,8°S,6°S
+chile_muchos_023,3B,rag,chile_muchos,no_encontro_B,1997,1994
+chile_muchos_025,3B,rag,chile_muchos,no_encontro_A,Solanaceae,Lauraceae
+chile_muchos_086,3B,rag,chile_muchos,no_encontro_A,19,siglo XVII
+chile_muchos_080,3B,rag,chile_muchos,no_encontro_A,120,20 km
+chile_muchos_039,3B,rag,chile_muchos,no_encontro_A,año 1987,27 de julio de 2021
+chile_muchos_059,3B,rag,chile_muchos,no_encontro_B,Santiago,Cañete
+chile_muchos_019,3B,rag,chile_muchos,no_encontro_A,"1 250 257,6 km²","20.405,1 km²"
+chile_muchos_079,3B,rag,chile_muchos,no_encontro_A,Santiago,Coyhaique
+chile_muchos_020,3B,rag,chile_muchos,no_encontro_A,1999,1951
+chile_muchos_004,3B,rag,chile_muchos,no_encontro_A,1989,2022
+chile_muchos_030,3B,rag,chile_muchos,no_encontro_B,11 de septiembre de 1973,3 de noviembre de 1970
+chile_muchos_082,3B,rag,chile_muchos,leyo_mal,1981,1976
+chile_muchos_044,3B,rag,chile_muchos,no_encontro_A,La Tercera,Revolución Democrática
+chile_muchos_005,3B,rag,chile_muchos,leyo_mal,Tacna,Moquegua
+chile_muchos_070,3B,rag,chile_muchos,no_encontro_A,Santiago,Puerto Natales
+chile_muchos_094,3B,rag,chile_muchos,no_encontro_A,Puerto Williams,Puerto Chacabuco
+chile_muchos_018,3B,rag,chile_muchos,no_encontro_A,Región de Valparaíso,Región del Maule
+chile_muchos_088,3B,rag,chile_muchos,no_encontro_A,chilcote,caliche
+chile_muchos_076,3B,rag,chile_muchos,no_encontro_A,Mapu Dungun,Bosque de lechuzas
+chile_muchos_031,3B,rag,chile_muchos,no_encontro_A,río Maullín,Weser
+chile_muchos_016,3B,rag,chile_muchos,no_encontro_A,1570,1881
+chile_muchos_087,3B,rag,chile_muchos,no_encontro_A,París,Lacio
+chile_muchos_022,3B,rag,chile_muchos,no_encontro_B,región de Tarapacá,provincia del Tamarugal
+no_chile_pocos_073,3B,rag,no_chile_pocos,no_encontro_A,Lima,Chalhuanca
+no_chile_pocos_080,3B,rag,no_chile_pocos,no_encontro_A,2000,2010
+no_chile_pocos_010,3B,rag,no_chile_pocos,no_encontro_A,Ciudad de México,Ica
+no_chile_pocos_088,3B,rag,no_chile_pocos,no_encontro_A,1893,1903
+no_chile_pocos_095,3B,rag,no_chile_pocos,no_encontro_A,San Juan de la Frontera de Huamanga,Villa Rica de Oropesa
+no_chile_pocos_097,3B,rag,no_chile_pocos,no_encontro_A,2011,2003
+no_chile_pocos_040,3B,rag,no_chile_pocos,no_encontro_A,Región de Los Ríos,Emilia-Romaña
+no_chile_pocos_046,3B,rag,no_chile_pocos,no_encontro_A,1810,1541
+no_chile_pocos_048,3B,rag,no_chile_pocos,no_encontro_A,río Dordogne,Ródano y Saona
+no_chile_pocos_092,3B,rag,no_chile_pocos,no_encontro_A,220 km,812 km
+no_chile_pocos_000,3B,rag,no_chile_pocos,no_encontro_A,Simón Bolívar,Andrés de Santa Cruz
+no_chile_pocos_001,3B,rag,no_chile_pocos,no_encontro_A,Javier Silva Ruete,Raúl Salazar
+no_chile_pocos_071,3B,rag,no_chile_pocos,no_encontro_A,Luis Antonio Eguiguren Escudero,Jerónimo de Silva
+no_chile_pocos_067,3B,rag,no_chile_pocos,no_encontro_A,Montpellier,Rennes
+no_chile_pocos_027,3B,rag,no_chile_pocos,no_encontro_A,Pacaya,estrecho de Tiquina
+no_chile_pocos_089,3B,rag,no_chile_pocos,no_encontro_A,El Mi Llull,Voz Rebelde
+no_chile_pocos_079,3B,rag,no_chile_pocos,no_encontro_A,1535,1572
+no_chile_pocos_035,3B,rag,no_chile_pocos,no_encontro_A,Distrito Limeño,Diócesis de Carabayllo
+no_chile_pocos_061,3B,rag,no_chile_pocos,no_encontro_A,Tumbes,Pacasmayo
+no_chile_pocos_014,3B,rag,no_chile_pocos,no_encontro_A,Tarija,Junín
+no_chile_pocos_077,3B,rag,no_chile_pocos,no_encontro_A,Apia,Melbourne
+no_chile_pocos_016,3B,rag,no_chile_pocos,no_encontro_B,Bérgamo,Lombardía
+no_chile_pocos_004,3B,rag,no_chile_pocos,no_encontro_A,Guillermo Beltrán Yábar,Fernando Belaúnde Terry
+no_chile_pocos_031,3B,rag,no_chile_pocos,no_encontro_A,río Rímac,río Chili
+no_chile_pocos_096,3B,rag,no_chile_pocos,no_encontro_A,No está claro,Ministerio del Interior
+no_chile_pocos_036,3B,rag,no_chile_pocos,no_encontro_A,Martín Vizcarra,Ollanta Humala
+no_chile_pocos_005,3B,rag,no_chile_pocos,leyo_mal,Utcubamba,Chiclayo
+no_chile_pocos_070,3B,rag,no_chile_pocos,no_encontro_A,Madrid,La Rochela
+no_chile_pocos_084,3B,rag,no_chile_pocos,no_encontro_A,Pedro Castillo,José Jerí
+no_chile_pocos_013,3B,rag,no_chile_pocos,no_encontro_B,1963,1938
+no_chile_pocos_060,3B,rag,no_chile_pocos,no_encontro_A,Buenos Aires,Guipúzcoa
+no_chile_pocos_099,3B,rag,no_chile_pocos,no_encontro_A,1849,1574
+no_chile_pocos_069,3B,rag,no_chile_pocos,no_encontro_A,Lima,Callao
+no_chile_pocos_009,3B,rag,no_chile_pocos,no_encontro_A,2002,2010
+no_chile_pocos_074,3B,rag,no_chile_pocos,no_encontro_A,San Isidro,Miraflores
+no_chile_pocos_032,3B,rag,no_chile_pocos,no_encontro_B,Guayaquil,Congreso de Angostura
+no_chile_pocos_012,3B,rag,no_chile_pocos,leyo_mal,Breña,San Luis
+no_chile_pocos_090,3B,rag,no_chile_pocos,no_encontro_A,San Isidro,Barranco
+no_chile_muchos_051,3B,rag,no_chile_muchos,no_encontro_A,Quebec,Saint-Malo
+no_chile_muchos_027,3B,rag,no_chile_muchos,no_encontro_A,Nickelodeon,TV Asahi
+no_chile_muchos_024,3B,rag,no_chile_muchos,no_encontro_A,Cumières,Metz
+no_chile_muchos_013,3B,rag,no_chile_muchos,no_encontro_A,Jūshin-do,Gaimu-shō
+no_chile_muchos_065,3B,rag,no_chile_muchos,no_encontro_A,1908,1927
+no_chile_muchos_092,3B,rag,no_chile_muchos,no_encontro_A,1997,2010
+no_chile_muchos_095,3B,rag,no_chile_muchos,no_encontro_A,程杰 (Jack Chen),Christopher Sholes
+no_chile_muchos_011,3B,rag,no_chile_muchos,no_encontro_A,15,50 km
+no_chile_muchos_089,3B,rag,no_chile_muchos,no_encontro_A,Collège de France,Palais-Royal
+no_chile_muchos_022,3B,rag,no_chile_muchos,no_encontro_A,787,710
+no_chile_muchos_047,3B,rag,no_chile_muchos,no_encontro_A,Hokkaido,isla de Sajalín
+no_chile_muchos_063,3B,rag,no_chile_muchos,no_encontro_A,6,160
+no_chile_muchos_032,3B,rag,no_chile_muchos,no_encontro_A,No está claro,yūrei
+no_chile_muchos_019,3B,rag,no_chile_muchos,no_encontro_A,Studio Devaloka,Mistwalker
+no_chile_muchos_094,3B,rag,no_chile_muchos,no_encontro_A,1551,1185
+no_chile_muchos_009,3B,rag,no_chile_muchos,leyo_mal,Nápoles,Palermo
+no_chile_muchos_015,3B,rag,no_chile_muchos,no_encontro_A,1547,17 de enero de 2015
+no_chile_muchos_010,3B,rag,no_chile_muchos,no_encontro_A,1933,1951
+no_chile_muchos_085,3B,rag,no_chile_muchos,no_encontro_A,Monza,Casale Corte Cerro
+no_chile_muchos_084,3B,rag,no_chile_muchos,no_encontro_A,Egipto,Turquía
+no_chile_muchos_039,3B,rag,no_chile_muchos,no_encontro_A,Sichuan,Setagaya
+no_chile_muchos_079,3B,rag,no_chile_muchos,no_encontro_A,6,31
+no_chile_muchos_087,3B,rag,no_chile_muchos,no_encontro_A,Solutré-Pouilly,Dijon
+no_chile_muchos_086,3B,rag,no_chile_muchos,no_encontro_A,40 metros,1829 metros
+no_chile_muchos_012,3B,rag,no_chile_muchos,no_encontro_A,La Vitruviana,La Última Cena
+no_chile_muchos_076,3B,rag,no_chile_muchos,no_encontro_A,Cambrai,Lille
+no_chile_muchos_040,3B,rag,no_chile_muchos,no_encontro_A,Red Sea,estrecho de Bab el-Mandeb
+no_chile_muchos_090,3B,rag,no_chile_muchos,no_encontro_A,Hungría,Estados Pontificios
+no_chile_muchos_026,3B,rag,no_chile_muchos,no_encontro_A,1115,1876
+no_chile_muchos_083,3B,rag,no_chile_muchos,no_encontro_A,Sinor,Arabia Pétrea
+no_chile_muchos_048,3B,rag,no_chile_muchos,no_encontro_A,Kantō,Kansai
+no_chile_muchos_067,3B,rag,no_chile_muchos,no_encontro_A,María Schneider,Bernardo Bertolucci
+no_chile_muchos_043,3B,rag,no_chile_muchos,no_encontro_A,Tokio,Sapporo
+no_chile_muchos_058,3B,rag,no_chile_muchos,no_encontro_A,Sydney,Borujerd
+no_chile_muchos_069,3B,rag,no_chile_muchos,no_encontro_A,Oranienburg,Múnich
+no_chile_muchos_072,3B,rag,no_chile_muchos,no_encontro_A,Chantilly,Amiens
+no_chile_muchos_038,3B,rag,no_chile_muchos,no_encontro_A,Región Yangtze,Cantón
+chile_pocos_087,3B,react,chile_pocos,no_encontro_B,1960,1926
+chile_pocos_039,3B,react,chile_pocos,leyo_mal,Constitución Política de la República de Chile de 1925,Constitución de 1833
+chile_pocos_069,3B,react,chile_pocos,leyo_mal,10 de marzo de 2010,2010
+chile_pocos_040,3B,react,chile_pocos,no_encontro_B,1971,1969
+chile_pocos_033,3B,react,chile_pocos,no_encontro_B,Santiago,Viña del Mar
+chile_pocos_071,3B,react,chile_pocos,no_encontro_B,construcción,paltas
+chile_pocos_086,3B,react,chile_pocos,no_encontro_B,1977,1974
+chile_pocos_000,3B,react,chile_pocos,no_encontro_A,1870,1614
+chile_pocos_093,3B,react,chile_pocos,leyo_mal,Riaño,Voto
+chile_pocos_001,3B,react,chile_pocos,no_encontro_A,no se pudo determinar la provincia,Llanquihue
+chile_pocos_066,3B,react,chile_pocos,no_encontro_B,No se encontró información,1890
+chile_pocos_021,3B,react,chile_pocos,formato,,Canal Señoret
+chile_pocos_023,3B,react,chile_pocos,no_encontro_A,No se encontró información,1988
+chile_pocos_025,3B,react,chile_pocos,no_encontro_A,no encontrada información,1894
+chile_pocos_030,3B,react,chile_pocos,no_encontro_A,?,2017
+chile_pocos_014,3B,react,chile_pocos,no_encontro_A,Recinto abaluartado de Badajoz,Fuerte Aguayo
+chile_pocos_072,3B,react,chile_pocos,no_encontro_B,?,1959
+chile_pocos_079,3B,react,chile_pocos,leyo_mal,Información no encontrada,Armada de Chile
+chile_pocos_031,3B,react,chile_pocos,leyo_mal,tipo: no encontrado,1987
+chile_pocos_006,3B,react,chile_pocos,no_encontro_B,Cultura incaica,cultura Chinchorro
+chile_pocos_065,3B,react,chile_pocos,no_encontro_A,Valparaíso,Birán
+chile_pocos_076,3B,react,chile_pocos,no_encontro_A,No se encontró información,Biznaga de Oro
+chile_pocos_057,3B,react,chile_pocos,max_pasos,,La Serena
+chile_pocos_048,3B,react,chile_pocos,no_encontro_B,Florida (Vicente López),Puente Alto
+chile_pocos_059,3B,react,chile_pocos,no_encontro_B,1904,1852
+chile_pocos_010,3B,react,chile_pocos,no_encontro_A,La Lezíbar,Macul
+chile_pocos_070,3B,react,chile_pocos,leyo_mal,Marchigüe,Cardenal Caro
+chile_muchos_074,3B,react,chile_muchos,no_encontro_B,Liliales,Liliopsida
+chile_muchos_081,3B,react,chile_muchos,leyo_mal,Lo Prado,Las Barrancas
+chile_muchos_006,3B,react,chile_muchos,no_encontro_B,Grupo Actoral 80,Editorial Sudamericana
+chile_muchos_097,3B,react,chile_muchos,no_encontro_B,Colonia,Parral
+chile_muchos_046,3B,react,chile_muchos,no_encontro_B,Atacama,El Loa
+chile_muchos_050,3B,react,chile_muchos,no_encontro_A,Región del Libertador General Bernardo O'Higgins,Región de Ñuble
+chile_muchos_051,3B,react,chile_muchos,no_encontro_B,Petorca,220 kilómetros
+chile_muchos_001,3B,react,chile_muchos,no_encontro_A,2780 km²,"1511,6 km²"
+chile_muchos_073,3B,react,chile_muchos,no_encontro_B,desierto del Pacífico,6°S
+chile_muchos_067,3B,react,chile_muchos,max_pasos,,1853
+chile_muchos_023,3B,react,chile_muchos,no_encontro_B,1979,1994
+chile_muchos_025,3B,react,chile_muchos,no_encontro_A,solanáceas,Lauraceae
+chile_muchos_086,3B,react,chile_muchos,no_encontro_B,siglo XIX,siglo XVII
+chile_muchos_080,3B,react,chile_muchos,no_encontro_B,500,20 km
+chile_muchos_039,3B,react,chile_muchos,no_encontro_B,1997,27 de julio de 2021
+chile_muchos_019,3B,react,chile_muchos,no_encontro_B,Taltal,"20.405,1 km²"
+chile_muchos_079,3B,react,chile_muchos,no_encontro_A,Península de Tres Montes,Coyhaique
+chile_muchos_020,3B,react,chile_muchos,no_encontro_A,2016,1951
+chile_muchos_030,3B,react,chile_muchos,no_encontro_B,11 de setiembre de 1973,3 de noviembre de 1970
+chile_muchos_044,3B,react,chile_muchos,no_encontro_B,Convergencia Social,Revolución Democrática
+chile_muchos_005,3B,react,chile_muchos,no_encontro_B,Departamento Arica,Moquegua
+chile_muchos_070,3B,react,chile_muchos,no_encontro_B,Arturo Prat,Puerto Natales
+chile_muchos_094,3B,react,chile_muchos,no_encontro_B,Canal de Beagle,Puerto Chacabuco
+chile_muchos_088,3B,react,chile_muchos,no_encontro_B,sal,caliche
+chile_muchos_011,3B,react,chile_muchos,no_encontro_B,1956,1957
+chile_muchos_076,3B,react,chile_muchos,no_encontro_A,No se encontró información,Bosque de lechuzas
+chile_muchos_016,3B,react,chile_muchos,no_encontro_A,Desconocida,1881
+no_chile_pocos_073,3B,react,no_chile_pocos,no_encontro_B,"Garrucha, Andalucía, España",Chalhuanca
+no_chile_pocos_080,3B,react,no_chile_pocos,no_encontro_A,1999,2010
+no_chile_pocos_008,3B,react,no_chile_pocos,no_encontro_A,No se encontró información,Quebec
+no_chile_pocos_088,3B,react,no_chile_pocos,no_encontro_A,1907,1903
+no_chile_pocos_095,3B,react,no_chile_pocos,no_encontro_A,Ayacucho,Villa Rica de Oropesa
+no_chile_pocos_097,3B,react,no_chile_pocos,no_encontro_A,11 de febrero de 1855,2003
+no_chile_pocos_046,3B,react,no_chile_pocos,no_encontro_B,1824,1541
+no_chile_pocos_048,3B,react,no_chile_pocos,no_encontro_B,Ródano,Ródano y Saona
+no_chile_pocos_092,3B,react,no_chile_pocos,no_encontro_A,No se encontró la información específica,812 km
+no_chile_pocos_000,3B,react,no_chile_pocos,no_encontro_B,No se encontró información,Andrés de Santa Cruz
+no_chile_pocos_001,3B,react,no_chile_pocos,no_encontro_B,Roberto Patiño,Raúl Salazar
+no_chile_pocos_071,3B,react,no_chile_pocos,no_encontro_B,Huancayo,Jerónimo de Silva
+no_chile_pocos_067,3B,react,no_chile_pocos,no_encontro_B,Bretaña,Rennes
+no_chile_pocos_026,3B,react,no_chile_pocos,no_encontro_B,Plaza de la Liberación (Hayat Tahrir al-Sham),Sidi Bouzid
+no_chile_pocos_089,3B,react,no_chile_pocos,no_encontro_A,titulos similares no proporcionan la respuesta,Voz Rebelde
+no_chile_pocos_035,3B,react,no_chile_pocos,no_encontro_A,arquidiócesis de Piura,Diócesis de Carabayllo
+no_chile_pocos_077,3B,react,no_chile_pocos,max_pasos,,Melbourne
+no_chile_pocos_016,3B,react,no_chile_pocos,no_encontro_A,Italia,Lombardía
+no_chile_pocos_096,3B,react,no_chile_pocos,max_pasos,,Ministerio del Interior
+no_chile_pocos_036,3B,react,no_chile_pocos,no_encontro_A,Carlos Oliva,Ollanta Humala
+no_chile_pocos_005,3B,react,no_chile_pocos,no_encontro_A,Provincia de Utcubamba,Chiclayo
+no_chile_pocos_013,3B,react,no_chile_pocos,no_encontro_A,1963,1938
+no_chile_pocos_099,3B,react,no_chile_pocos,leyo_mal,20 de enero de 1574,1574
+no_chile_pocos_009,3B,react,no_chile_pocos,no_encontro_B,2018,2010
+no_chile_pocos_074,3B,react,no_chile_pocos,no_encontro_A,Distrito de San Borja,Miraflores
+no_chile_pocos_032,3B,react,no_chile_pocos,no_encontro_A,Congreso del Estado de Nuevo León 1861,Congreso de Angostura
+no_chile_pocos_012,3B,react,no_chile_pocos,leyo_mal,San Isidro,San Luis
+no_chile_pocos_090,3B,react,no_chile_pocos,no_encontro_B,San Juan de Miraflores,Barranco
+no_chile_muchos_051,3B,react,no_chile_muchos,leyo_mal,Canadá,Saint-Malo
+no_chile_muchos_013,3B,react,no_chile_muchos,no_encontro_A,No se encontró información,Gaimu-shō
+no_chile_muchos_065,3B,react,no_chile_muchos,no_encontro_B,Canberra,1927
+no_chile_muchos_092,3B,react,no_chile_muchos,no_encontro_B,1998,2010
+no_chile_muchos_098,3B,react,no_chile_muchos,leyo_mal,Canadá,Tratado de París
+no_chile_muchos_095,3B,react,no_chile_muchos,no_encontro_A,No se pudo encontrar información,Christopher Sholes
+no_chile_muchos_089,3B,react,no_chile_muchos,no_encontro_A,Palacio de Justicia,Palais-Royal
+no_chile_muchos_047,3B,react,no_chile_muchos,no_encontro_A,Hokkaidō,isla de Sajalín
+no_chile_muchos_032,3B,react,no_chile_muchos,no_encontro_B,espíritu vengativo,yūrei
+no_chile_muchos_019,3B,react,no_chile_muchos,leyo_mal,Monolith Soft,Mistwalker
+no_chile_muchos_015,3B,react,no_chile_muchos,no_encontro_A,1150,17 de enero de 2015
+no_chile_muchos_010,3B,react,no_chile_muchos,no_encontro_A,2011,1951
+no_chile_muchos_066,3B,react,no_chile_muchos,no_encontro_B,No se encontró información sobre la sede social de JVC,Kanagawa
+no_chile_muchos_087,3B,react,no_chile_muchos,no_encontro_B,París,Dijon
+no_chile_muchos_086,3B,react,no_chile_muchos,no_encontro_B,380 m,1829 metros
+no_chile_muchos_012,3B,react,no_chile_muchos,leyo_mal,La Última Cena de Leonardo da Vinci,La Última Cena
+no_chile_muchos_076,3B,react,no_chile_muchos,no_encontro_B,París,Lille
+no_chile_muchos_040,3B,react,no_chile_muchos,no_encontro_B,Estrecho de Malacca,estrecho de Bab el-Mandeb
+no_chile_muchos_014,3B,react,no_chile_muchos,no_encontro_A,titulos parecidos,2002
+no_chile_muchos_090,3B,react,no_chile_muchos,no_encontro_B,No encontrada información,Estados Pontificios
+no_chile_muchos_026,3B,react,no_chile_muchos,no_encontro_B,1714,1876
+no_chile_muchos_083,3B,react,no_chile_muchos,leyo_mal,Arabia,Arabia Pétrea
+no_chile_muchos_048,3B,react,no_chile_muchos,no_encontro_B,Osaka,Kansai
+no_chile_muchos_067,3B,react,no_chile_muchos,leyo_mal,Katy Jurado,Bernardo Bertolucci
+no_chile_muchos_043,3B,react,no_chile_muchos,no_encontro_A,Honshū,Sapporo
+no_chile_muchos_058,3B,react,no_chile_muchos,leyo_mal,Irán,Borujerd
+no_chile_muchos_069,3B,react,no_chile_muchos,no_encontro_B,NSDAP,Múnich
+no_chile_muchos_072,3B,react,no_chile_muchos,no_encontro_B,Rouen,Amiens
+chile_pocos_087,7B,rag,chile_pocos,no_encontro_A,1980,1926
+chile_pocos_009,7B,rag,chile_pocos,no_encontro_A,Santiago,Arauco
+chile_pocos_011,7B,rag,chile_pocos,no_encontro_A,Santiago de Chile,Valparaíso
+chile_pocos_069,7B,rag,chile_pocos,no_encontro_A,2002,2010
+chile_pocos_074,7B,rag,chile_pocos,no_encontro_A,Resistencia,Quinchao
+chile_pocos_040,7B,rag,chile_pocos,no_encontro_A,1970,1969
+chile_pocos_033,7B,rag,chile_pocos,no_encontro_A,Santiago,Viña del Mar
+chile_pocos_042,7B,rag,chile_pocos,no_encontro_A,Santa Cruz,Cachapoal
+chile_pocos_071,7B,rag,chile_pocos,no_encontro_A,cultivo de uvas,paltas
+chile_pocos_017,7B,rag,chile_pocos,no_encontro_A,27 de marzo,San Carlos
+chile_pocos_086,7B,rag,chile_pocos,no_encontro_B,1977,1974
+chile_pocos_000,7B,rag,chile_pocos,no_encontro_A,1638,1614
+chile_pocos_093,7B,rag,chile_pocos,no_encontro_A,Santander,Voto
+chile_pocos_001,7B,rag,chile_pocos,leyo_mal,Los Lagos,Llanquihue
+chile_pocos_066,7B,rag,chile_pocos,no_encontro_A,1844,1890
+chile_pocos_060,7B,rag,chile_pocos,no_encontro_A,120,145 km
+chile_pocos_021,7B,rag,chile_pocos,no_encontro_A,Respuesta no encontrada,Canal Señoret
+chile_pocos_023,7B,rag,chile_pocos,no_encontro_A,1914,1988
+chile_pocos_025,7B,rag,chile_pocos,no_encontro_A,1541,1894
+chile_pocos_094,7B,rag,chile_pocos,no_encontro_A,Puerto Rico,Long Island
+chile_pocos_030,7B,rag,chile_pocos,no_encontro_A,2022,2017
+chile_pocos_052,7B,rag,chile_pocos,no_encontro_A,Confederación General del Trabajo,Colegio de Profesores de Chile
+chile_pocos_014,7B,rag,chile_pocos,no_encontro_A,Parque militar San Joaquín,Fuerte Aguayo
+chile_pocos_015,7B,rag,chile_pocos,no_encontro_B,Santiago de Chile,Valdivia
+chile_pocos_049,7B,rag,chile_pocos,no_encontro_A,San Antonio Eloxochitlán,San Carlos
+chile_pocos_079,7B,rag,chile_pocos,no_encontro_A,Ciudad de México,Armada de Chile
+chile_pocos_031,7B,rag,chile_pocos,no_encontro_A,1979,1987
+chile_pocos_006,7B,rag,chile_pocos,no_encontro_A,cariama,cultura Chinchorro
+chile_pocos_065,7B,rag,chile_pocos,no_encontro_A,San Juan de los Arroyos,Birán
+chile_pocos_076,7B,rag,chile_pocos,no_encontro_A,Premios FIPRESCI,Biznaga de Oro
+chile_pocos_013,7B,rag,chile_pocos,no_encontro_A,Puerto Maldonado,Hito Cero
+chile_pocos_057,7B,rag,chile_pocos,no_encontro_A,Tulancingo,La Serena
+chile_pocos_091,7B,rag,chile_pocos,no_encontro_A,1542,1884
+chile_pocos_059,7B,rag,chile_pocos,no_encontro_A,1524,1852
+chile_pocos_010,7B,rag,chile_pocos,no_encontro_B,San Joaquín,Macul
+chile_pocos_026,7B,rag,chile_pocos,no_encontro_A,Región de Valparaíso,Región del Maule
+chile_muchos_074,7B,rag,chile_muchos,no_encontro_A,Magnoliopsida,Liliopsida
+chile_muchos_081,7B,rag,chile_muchos,no_encontro_A,San Joaquín,Las Barrancas
+chile_muchos_006,7B,rag,chile_muchos,no_encontro_A,Planeta,Editorial Sudamericana
+chile_muchos_012,7B,rag,chile_muchos,leyo_mal,Puerto Montt,Castro
+chile_muchos_085,7B,rag,chile_muchos,no_encontro_A,1897,1861
+chile_muchos_097,7B,rag,chile_muchos,no_encontro_A,San Miguel,Parral
+chile_muchos_096,7B,rag,chile_muchos,no_encontro_A,llano de la Paciencia,210 km
+chile_muchos_046,7B,rag,chile_muchos,no_encontro_A,Antofagasta,El Loa
+chile_muchos_050,7B,rag,chile_muchos,no_encontro_B,Chillán,Región de Ñuble
+chile_muchos_051,7B,rag,chile_muchos,no_encontro_A,918,220 kilómetros
+chile_muchos_092,7B,rag,chile_muchos,no_encontro_A,1843,1826
+chile_muchos_001,7B,rag,chile_muchos,no_encontro_B,no se proporciona el área específica de la provincia en el texto dado.,"1511,6 km²"
+chile_muchos_002,7B,rag,chile_muchos,no_encontro_A,San José de Maipo,La Florida
+chile_muchos_073,7B,rag,chile_muchos,leyo_mal,8°S,6°S
+chile_muchos_023,7B,rag,chile_muchos,no_encontro_B,1974,1994
+chile_muchos_025,7B,rag,chile_muchos,no_encontro_A,Solanaceae,Lauraceae
+chile_muchos_086,7B,rag,chile_muchos,no_encontro_A,16,siglo XVII
+chile_muchos_080,7B,rag,chile_muchos,no_encontro_A,1200,20 km
+chile_muchos_039,7B,rag,chile_muchos,no_encontro_A,1985,27 de julio de 2021
+chile_muchos_059,7B,rag,chile_muchos,no_encontro_B,Santiago,Cañete
+chile_muchos_019,7B,rag,chile_muchos,no_encontro_A,"18,2 millones de km²","20.405,1 km²"
+chile_muchos_079,7B,rag,chile_muchos,no_encontro_A,Santiago,Coyhaique
+chile_muchos_020,7B,rag,chile_muchos,no_encontro_A,1999,1951
+chile_muchos_004,7B,rag,chile_muchos,no_encontro_A,2006,2022
+chile_muchos_030,7B,rag,chile_muchos,no_encontro_B,11 de septiembre de 1973,3 de noviembre de 1970
+chile_muchos_082,7B,rag,chile_muchos,leyo_mal,1932,1976
+chile_muchos_044,7B,rag,chile_muchos,no_encontro_A,Partido Comunista de Chile,Revolución Democrática
+chile_muchos_005,7B,rag,chile_muchos,leyo_mal,Tacna,Moquegua
+chile_muchos_070,7B,rag,chile_muchos,no_encontro_A,Santiago,Puerto Natales
+chile_muchos_094,7B,rag,chile_muchos,no_encontro_A,Golfo de Penas,Puerto Chacabuco
+chile_muchos_018,7B,rag,chile_muchos,no_encontro_A,Valparaíso,Región del Maule
+chile_muchos_088,7B,rag,chile_muchos,no_encontro_A,salares,caliche
+chile_muchos_076,7B,rag,chile_muchos,no_encontro_A,pueblito,Bosque de lechuzas
+chile_muchos_031,7B,rag,chile_muchos,no_encontro_A,Respuesta: Respuesta no encontrada en los textos proporcionados.,Weser
+chile_muchos_016,7B,rag,chile_muchos,no_encontro_A,1848,1881
+chile_muchos_087,7B,rag,chile_muchos,no_encontro_A,París,Lacio
+chile_muchos_022,7B,rag,chile_muchos,no_encontro_B,Tarapacá,provincia del Tamarugal
+no_chile_pocos_073,7B,rag,no_chile_pocos,no_encontro_A,Lima,Chalhuanca
+no_chile_pocos_080,7B,rag,no_chile_pocos,no_encontro_A,2015,2010
+no_chile_pocos_008,7B,rag,no_chile_pocos,no_encontro_A,Ontario,Quebec
+no_chile_pocos_010,7B,rag,no_chile_pocos,no_encontro_A,Caquetá,Ica
+no_chile_pocos_095,7B,rag,no_chile_pocos,no_encontro_A,San Juan de la Frontera de Huamanga,Villa Rica de Oropesa
+no_chile_pocos_097,7B,rag,no_chile_pocos,no_encontro_A,2011,2003
+no_chile_pocos_040,7B,rag,no_chile_pocos,no_encontro_A,República Italiana,Emilia-Romaña
+no_chile_pocos_046,7B,rag,no_chile_pocos,no_encontro_A,1533,1541
+no_chile_pocos_048,7B,rag,no_chile_pocos,no_encontro_A,Dánube y Rin,Ródano y Saona
+no_chile_pocos_092,7B,rag,no_chile_pocos,no_encontro_A,300,812 km
+no_chile_pocos_000,7B,rag,no_chile_pocos,no_encontro_A,Simón Bolívar,Andrés de Santa Cruz
+no_chile_pocos_001,7B,rag,no_chile_pocos,no_encontro_A,Javier Silva Ruete,Raúl Salazar
+no_chile_pocos_071,7B,rag,no_chile_pocos,no_encontro_A,Francisco Pizarro,Jerónimo de Silva
+no_chile_pocos_067,7B,rag,no_chile_pocos,no_encontro_A,Dijón,Rennes
+no_chile_pocos_027,7B,rag,no_chile_pocos,no_encontro_A,Estrecho de Titicaca,estrecho de Tiquina
+no_chile_pocos_089,7B,rag,no_chile_pocos,no_encontro_A,El Comunista,Voz Rebelde
+no_chile_pocos_079,7B,rag,no_chile_pocos,no_encontro_A,1533,1572
+no_chile_pocos_035,7B,rag,no_chile_pocos,no_encontro_A,Lima,Diócesis de Carabayllo
+no_chile_pocos_061,7B,rag,no_chile_pocos,no_encontro_A,Lima,Pacasmayo
+no_chile_pocos_014,7B,rag,no_chile_pocos,no_encontro_A,Trujillo,Junín
+no_chile_pocos_077,7B,rag,no_chile_pocos,no_encontro_A,Sydney,Melbourne
+no_chile_pocos_016,7B,rag,no_chile_pocos,no_encontro_B,Bérgamo,Lombardía
+no_chile_pocos_004,7B,rag,no_chile_pocos,no_encontro_A,Víctor Raúl Haya de la Torre,Fernando Belaúnde Terry
+no_chile_pocos_031,7B,rag,no_chile_pocos,no_encontro_A,Río Santa,río Chili
+no_chile_pocos_096,7B,rag,no_chile_pocos,no_encontro_A,Ministerio de Defensa,Ministerio del Interior
+no_chile_pocos_036,7B,rag,no_chile_pocos,no_encontro_A,Pedro Pablo Kuczynski,Ollanta Humala
+no_chile_pocos_005,7B,rag,no_chile_pocos,leyo_mal,Utcubamba,Chiclayo
+no_chile_pocos_070,7B,rag,no_chile_pocos,no_encontro_A,París,La Rochela
+no_chile_pocos_084,7B,rag,no_chile_pocos,no_encontro_A,Pedro Castillo,José Jerí
+no_chile_pocos_013,7B,rag,no_chile_pocos,no_encontro_B,2016,1938
+no_chile_pocos_060,7B,rag,no_chile_pocos,no_encontro_A,Buenos Aires,Guipúzcoa
+no_chile_pocos_099,7B,rag,no_chile_pocos,no_encontro_A,1533,1574
+no_chile_pocos_069,7B,rag,no_chile_pocos,no_encontro_A,Lima,Callao
+no_chile_pocos_009,7B,rag,no_chile_pocos,no_encontro_A,2007,2010
+no_chile_pocos_074,7B,rag,no_chile_pocos,no_encontro_A,San Isidro,Miraflores
+no_chile_pocos_012,7B,rag,no_chile_pocos,leyo_mal,San Isidro,San Luis
+no_chile_pocos_090,7B,rag,no_chile_pocos,no_encontro_A,Rímac,Barranco
+no_chile_muchos_051,7B,rag,no_chile_muchos,no_encontro_A,Brouage,Saint-Malo
+no_chile_muchos_027,7B,rag,no_chile_muchos,no_encontro_A,Toonami,TV Asahi
+no_chile_muchos_024,7B,rag,no_chile_muchos,no_encontro_A,Nancy,Metz
+no_chile_muchos_013,7B,rag,no_chile_muchos,no_encontro_A,じんぶんかん,Gaimu-shō
+no_chile_muchos_065,7B,rag,no_chile_muchos,no_encontro_A,1901,1927
+no_chile_muchos_092,7B,rag,no_chile_muchos,no_encontro_A,1997,2010
+no_chile_muchos_098,7B,rag,no_chile_muchos,leyo_mal,Tratado de París (1763),Tratado de París
+no_chile_muchos_095,7B,rag,no_chile_muchos,no_encontro_A,Research In Motion,Christopher Sholes
+no_chile_muchos_011,7B,rag,no_chile_muchos,no_encontro_A,10,50 km
+no_chile_muchos_089,7B,rag,no_chile_muchos,no_encontro_A,Palacio de Justicia,Palais-Royal
+no_chile_muchos_022,7B,rag,no_chile_muchos,no_encontro_A,1868,710
+no_chile_muchos_047,7B,rag,no_chile_muchos,no_encontro_A,Japón,isla de Sajalín
+no_chile_muchos_063,7B,rag,no_chile_muchos,no_encontro_A,83,160
+no_chile_muchos_032,7B,rag,no_chile_muchos,no_encontro_A,oniokireshi,yūrei
+no_chile_muchos_019,7B,rag,no_chile_muchos,no_encontro_A,Studio Devaloka,Mistwalker
+no_chile_muchos_094,7B,rag,no_chile_muchos,no_encontro_A,1600,1185
+no_chile_muchos_015,7B,rag,no_chile_muchos,no_encontro_A,1512,17 de enero de 2015
+no_chile_muchos_010,7B,rag,no_chile_muchos,no_encontro_A,1938,1951
+no_chile_muchos_085,7B,rag,no_chile_muchos,no_encontro_A,Milanuncios,Casale Corte Cerro
+no_chile_muchos_084,7B,rag,no_chile_muchos,no_encontro_A,Egipto,Turquía
+no_chile_muchos_039,7B,rag,no_chile_muchos,formato,,Setagaya
+no_chile_muchos_079,7B,rag,no_chile_muchos,no_encontro_A,95,31
+no_chile_muchos_087,7B,rag,no_chile_muchos,no_encontro_A,Vienne,Dijon
+no_chile_muchos_086,7B,rag,no_chile_muchos,no_encontro_A,2250,1829 metros
+no_chile_muchos_012,7B,rag,no_chile_muchos,no_encontro_A,Mona Lisa,La Última Cena
+no_chile_muchos_076,7B,rag,no_chile_muchos,no_encontro_A,Bruselas,Lille
+no_chile_muchos_040,7B,rag,no_chile_muchos,no_encontro_A,Estrecho de Gades,estrecho de Bab el-Mandeb
+no_chile_muchos_090,7B,rag,no_chile_muchos,no_encontro_A,Reino de Polonia,Estados Pontificios
+no_chile_muchos_026,7B,rag,no_chile_muchos,no_encontro_A,1115,1876
+no_chile_muchos_083,7B,rag,no_chile_muchos,no_encontro_A,Egipto,Arabia Pétrea
+no_chile_muchos_067,7B,rag,no_chile_muchos,no_encontro_A,Francis Ford Coppola,Bernardo Bertolucci
+no_chile_muchos_043,7B,rag,no_chile_muchos,no_encontro_A,Tokio,Sapporo
+no_chile_muchos_058,7B,rag,no_chile_muchos,no_encontro_A,Sídney,Borujerd
+no_chile_muchos_069,7B,rag,no_chile_muchos,no_encontro_A,Frankfurt,Múnich
+no_chile_muchos_072,7B,rag,no_chile_muchos,no_encontro_A,Dijon,Amiens
+no_chile_muchos_038,7B,rag,no_chile_muchos,no_encontro_A,Gansu,Cantón
+chile_pocos_011,7B,react,chile_pocos,no_encontro_A,Yapeyú,Valparaíso
+chile_pocos_066,7B,react,chile_pocos,max_pasos,,1890
+chile_pocos_014,7B,react,chile_pocos,no_encontro_B,Parque Cultural de Valparaíso,Fuerte Aguayo
+chile_pocos_065,7B,react,chile_pocos,no_encontro_A,Venezuela,Birán
+chile_pocos_013,7B,react,chile_pocos,no_encontro_B,Puerto Montt,Hito Cero
+chile_pocos_048,7B,react,chile_pocos,no_encontro_B,Comuna de Ñuñoa,Puente Alto
+chile_pocos_010,7B,react,chile_pocos,no_encontro_B,Ñuñoa Sur,Macul
+chile_pocos_070,7B,react,chile_pocos,no_encontro_A,Lima,Cardenal Caro
+chile_muchos_081,7B,react,chile_muchos,leyo_mal,Pudahuel,Las Barrancas
+chile_muchos_097,7B,react,chile_muchos,no_encontro_B,Freire,Parral
+chile_muchos_096,7B,react,chile_muchos,no_encontro_A,300 km,210 km
+chile_muchos_046,7B,react,chile_muchos,no_encontro_B,San Pedro de Atacama,El Loa
+chile_muchos_051,7B,react,chile_muchos,no_encontro_B,90 km,220 kilómetros
+chile_muchos_001,7B,react,chile_muchos,no_encontro_A,16 396 km²,"1511,6 km²"
+chile_muchos_002,7B,react,chile_muchos,leyo_mal,Macul,La Florida
+chile_muchos_073,7B,react,chile_muchos,no_encontro_B,18°S a 30°S,6°S
+chile_muchos_025,7B,react,chile_muchos,no_encontro_A,cebolla,Lauraceae
+chile_muchos_086,7B,react,chile_muchos,no_encontro_B,18,siglo XVII
+chile_muchos_080,7B,react,chile_muchos,max_pasos,,20 km
+chile_muchos_039,7B,react,chile_muchos,no_encontro_B,2005,27 de julio de 2021
+chile_muchos_019,7B,react,chile_muchos,no_encontro_B,Sierra Gorda,"20.405,1 km²"
+chile_muchos_020,7B,react,chile_muchos,no_encontro_A,2007,1951
+chile_muchos_044,7B,react,chile_muchos,no_encontro_B,Frente Amplio,Revolución Democrática
+chile_muchos_005,7B,react,chile_muchos,no_encontro_B,Chiclayo,Moquegua
+chile_muchos_070,7B,react,chile_muchos,no_encontro_B,Puerto Esperanza,Puerto Natales
+chile_muchos_094,7B,react,chile_muchos,no_encontro_B,Puerto Aysén,Puerto Chacabuco
+chile_muchos_058,7B,react,chile_muchos,no_encontro_B,Collipulli,Provincia de Punilla
+chile_muchos_088,7B,react,chile_muchos,no_encontro_B,Conglomerado,caliche
+chile_muchos_076,7B,react,chile_muchos,no_encontro_B,agua dulce,Bosque de lechuzas
+chile_muchos_031,7B,react,chile_muchos,no_encontro_A,río Spree,Weser
+no_chile_pocos_080,7B,react,no_chile_pocos,no_encontro_B,1993,2010
+no_chile_pocos_048,7B,react,no_chile_pocos,leyo_mal,río Ródano y Saona,Ródano y Saona
+no_chile_pocos_000,7B,react,no_chile_pocos,no_encontro_B,Simón Bolívar,Andrés de Santa Cruz
+no_chile_pocos_001,7B,react,no_chile_pocos,no_encontro_B,Manuel Moreyra,Raúl Salazar
+no_chile_pocos_067,7B,react,no_chile_pocos,no_encontro_B,Nantes,Rennes
+no_chile_pocos_026,7B,react,no_chile_pocos,leyo_mal,Tahrir Square,Sidi Bouzid
+no_chile_pocos_089,7B,react,no_chile_pocos,no_encontro_A,El Símbolo,Voz Rebelde
+no_chile_pocos_079,7B,react,no_chile_pocos,no_encontro_B,1535,1572
+no_chile_pocos_035,7B,react,no_chile_pocos,leyo_mal,Diócesis de Lima,Diócesis de Carabayllo
+no_chile_pocos_077,7B,react,no_chile_pocos,max_pasos,,Melbourne
+no_chile_pocos_096,7B,react,no_chile_pocos,no_encontro_A,Ministerio de Defensa,Ministerio del Interior
+no_chile_pocos_036,7B,react,no_chile_pocos,no_encontro_A,Pedro Castillo,Ollanta Humala
+no_chile_pocos_005,7B,react,no_chile_pocos,no_encontro_A,provincia de Atalaya,Chiclayo
+no_chile_pocos_084,7B,react,no_chile_pocos,leyo_mal,Valentín Paniagua,José Jerí
+no_chile_pocos_060,7B,react,no_chile_pocos,no_encontro_A,Provincia de Buenos Aires,Guipúzcoa
+no_chile_pocos_032,7B,react,no_chile_pocos,no_encontro_B,1829,Congreso de Angostura
+no_chile_pocos_012,7B,react,no_chile_pocos,leyo_mal,distrito de San Isidro,San Luis
+no_chile_pocos_090,7B,react,no_chile_pocos,no_encontro_B,Distrito de San Juan de Miraflores,Barranco
+no_chile_muchos_051,7B,react,no_chile_muchos,no_encontro_A,Brouage,Saint-Malo
+no_chile_muchos_024,7B,react,no_chile_muchos,no_encontro_B,Colmar,Metz
+no_chile_muchos_065,7B,react,no_chile_muchos,no_encontro_B,1901,1927
+no_chile_muchos_092,7B,react,no_chile_muchos,no_encontro_B,1995,2010
+no_chile_muchos_095,7B,react,no_chile_muchos,leyo_mal,Información insuficiente para determinar quién diseñó y patentó el teclado incorporado que hizo famosa a BlackBerry,Christopher Sholes
+no_chile_muchos_011,7B,react,no_chile_muchos,no_encontro_B,20-30 kilómetros,50 km
+no_chile_muchos_089,7B,react,no_chile_muchos,no_encontro_B,Palais de Justice de Paris,Palais-Royal
+no_chile_muchos_022,7B,react,no_chile_muchos,no_encontro_B,768,710
+no_chile_muchos_047,7B,react,no_chile_muchos,no_encontro_A,isla de California,isla de Sajalín
+no_chile_muchos_032,7B,react,no_chile_muchos,no_encontro_B,Onryō,yūrei
+no_chile_muchos_066,7B,react,no_chile_muchos,no_encontro_B,prefectura de Osaka,Kanagawa
+no_chile_muchos_012,7B,react,no_chile_muchos,no_encontro_A,El Hombre de Vitruvio,La Última Cena
+no_chile_muchos_090,7B,react,no_chile_muchos,no_encontro_B,austriaco,Estados Pontificios
+no_chile_muchos_069,7B,react,no_chile_muchos,no_encontro_B,Berlín,Múnich
+no_chile_muchos_038,7B,react,no_chile_muchos,no_encontro_B,Qixian,Cantón

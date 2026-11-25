@@ -664,3 +664,51 @@ Prueba en Colab → dev con 1.5B y 7B → congelar prompts → test → notebook
 (a) recuperación agéntica (ReAct) vs. memoria, (b) origen local vs. popularidad,
 separados con emparejamiento, (c) escala con modelos abiertos chicos y (d) preguntas
 multi-hop en español sobre Chile. Los trabajos anteriores cubren uno o dos de estos ejes.
+
+
+---
+
+## 10. Resultados de dev y congelamiento de prompts (24-11, noche)
+
+- **Prompts congelados después de dev.** Dev (20 preguntas) con 1.5B y 7B: sin errores
+  de formato ni cortes por contexto. 7B ReAct: EM 0,6–0,8 por celda vs. ~0 de directa.
+  Con 5 preguntas por celda no se interpreta ningún efecto; dev solo revisa que todo funcione.
+- **1.5B ReAct entra en bucles (11/20 llegan a 7 pasos) → no se corrige.** Es
+  comportamiento del modelo, no un bug: repite la misma búsqueda o alterna entre dos.
+  Coincide con el paper de ReAct, que reporta pasos repetitivos como error de
+  razonamiento, y con su Figura 3 (ReAct por prompting rinde mal en modelos chicos).
+  Ajustar el prompt para "salvar" al 1.5B sería acomodar el método. Tres tipos vistos:
+  - Alterna entre dos entidades inventadas: para "estación de la línea 5 del Metro" busca
+    Metro de Barcelona / Madrid, nunca Santiago (sesgo hacia España, como LatamQA).
+  - Repite una entidad inventada ("Cabo de la Vizcaya" en vez de Cabo de Hornos)
+    ignorando los títulos similares.
+  - Encuentra A (Pedro Aguirre Cerda) pero no extrae el puente y repite.
+- **RAG fijo casi no acierta → se mantiene, está bien implementado.** Es esperable en
+  preguntas puente: la respuesta está en B y B no se nombra en la pregunta, así que una
+  sola búsqueda con la pregunta, en el mejor caso, trae A. Además, el buscador de
+  Wikipedia (por palabras clave) funciona mal con preguntas largas: en 18/20 ni siquiera
+  trae A. Que una sola recuperación no basta en multi-hop es conocido (Trivedi et al.,
+  2023, IRCoT). La comparación ReAct vs. RAG muestra el valor de decidir qué buscar.
+- **~15 % de las preguntas no nombran a A** (lo describen indirectamente, ej. "el cabo
+  chileno en el extremo opuesto del pasaje de Drake" = Cabo de Hornos), lo que agrega un
+  salto. Está balanceado entre celdas (83–88 % nombran A), así que no confunde la
+  comparación; se puede usar como covariable en el análisis.
+
+---
+
+## 11. Interpretación de resultados de test (25-11, madrugada)
+
+Detalle en `resultados/analisis_errores.md`; figura en `resultados/figura_principal.png`.
+
+- **Dos predicciones en competencia** para "¿la ventaja de ReAct crece cuando el modelo es pequeño?":
+  (A) conocimiento (Mallen, Kandpal): el modelo chico sabe menos → más que ganar al buscar;
+  (B) capacidad (ReAct, Figura 3): usar la herramienta exige un modelo capaz → menos ganancia en
+  chicos. La pregunta original (sección 1) ya conectaba con la Figura 3. **Resultado: gana B**
+  (ganancia 0,17 → 0,29 → 0,56). No "replica" la Figura 3 (allí se compara con CoT, aquí con
+  Directa); es consistente con ella.
+- Directa está en el piso (≤ 8 %) en todas las celdas, así que las diferencias de ganancia entre celdas
+  reflejan cuánto rinde ReAct, no cuánto sabe el modelo de memoria.
+- Efecto local: dirección consistente (Chile +4–7 puntos en los 3 modelos), no significativo.
+- La caída de ReAct en "muchos" está confundida con el tipo de pregunta (más "ciudad natal" en "pocos").
+- 45–65 % de las búsquedas de ReAct no encuentran página por exigir título exacto: buena parte del
+  error es de interfaz con la herramienta.

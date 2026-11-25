@@ -17,7 +17,8 @@ from vllm import LLM, SamplingParams  # noqa: E402
 
 MODELOS = {"1.5B": "Qwen/Qwen2.5-1.5B-Instruct-AWQ",
            "3B":   "Qwen/Qwen2.5-3B-Instruct-AWQ",
-           "7B":   "Qwen/Qwen2.5-7B-Instruct-AWQ"}
+           "7B":   "Qwen/Qwen2.5-7B-Instruct-AWQ",
+           "14B":  "Qwen/Qwen2.5-14B-Instruct-AWQ"}  # extra: pesa ~9,5 GB, casi llena la T4
 
 MAX_MODEL_LEN = 8192   # largo máximo de contexto (prompt + salida), en tokens. 4096 no alcanza para 7 pasos de ReAct (DECISIONES 3.2)
 
@@ -32,7 +33,9 @@ def cargar(nombre: str) -> LLM:
     más lento (los CUDA graphs aceleran la generación).
     """
     return LLM(MODELOS[nombre], quantization="awq", dtype="half",
-               max_model_len=MAX_MODEL_LEN, gpu_memory_utilization=0.85, seed=0)
+               max_model_len=MAX_MODEL_LEN,
+               # El 14B deja poca memoria para la caché KV: se usa más de la GPU.
+               gpu_memory_utilization=0.95 if nombre == "14B" else 0.85, seed=0)
 
 
 def armar_prompt(llm: LLM, sistema: str, usuario: str,
