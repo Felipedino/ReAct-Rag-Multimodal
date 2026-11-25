@@ -27,7 +27,7 @@ Figura principal: `resultados/figura_principal.png`. Tablas completas: `tabla_te
 2. **La ventaja de ReAct crece con el tamaño** (0,17 → 0,29 → 0,56; IC de 1,5B y 7B no se tocan).
    De las dos predicciones en competencia (DECISIONES 1 y 11), gana la de capacidad: consistente con
    la Figura 3 de ReAct. En modelos chicos el cuello de botella es operar la herramienta, no lo que saben.
-3. **Efecto local no detectable.** Chile gana 4–7 puntos más que no Chile en los 3 modelos (dirección
+3. **Efecto local no detectable.** En la ganancia, Chile saca +4, +5 y +6 puntos sobre no Chile (1,5B, 3B, 7B; +6 con el 14B; dirección
    consistente), pero los IC se superponen por completo. Con 80 preguntas por grupo no se puede distinguir.
 4. **Popularidad: ReAct (7B) rinde peor en "muchos"**, no porque la memoria ayude (Directa está en el piso).
    Ver sección 3.
@@ -150,3 +150,30 @@ no_chile_muchos 0,63.
    "Península del Sinaí en la época romana"); casi todas fallan por no ser títulos. Le falta una acción
    para buscar dentro de una página (`lookup` en el paper) o un buscador tolerante.
 5. Directa en el piso también con 14B (≤ 10 % por celda): más parámetros no resuelven el multi-hop de memoria.
+
+## 7. Alucinaciones (comparación con el paper de ReAct)
+
+El paper de ReAct (Tabla 2, revisión manual de fallos de PaLM-540B en HotpotQA) reporta 0 % de
+alucinación entre los fallos de ReAct. Aquí sí hay. Criterio automático (calculado en la parte B de
+`notebook.ipynb`): un fallo de ReAct es alucinación si da una respuesta concreta que no aparece en
+ninguna observación que el modelo leyó. Se excluyen los fallos sin respuesta (bucles), las
+abstenciones ("No se encontró información", "?", "Desconocida"…) y los aciertos parciales (la respuesta
+correcta está dentro de la del modelo, ej. "río Ródano y Saona").
+
+| ReAct | Fallos | Sin respuesta | Se abstiene | Acierto parcial | Responde algo leído | Alucinación | % de los fallos |
+|---|---|---|---|---|---|---|---|
+| 1,5B | 130 | 69 | 1 | 0 | 46 | 14 | 11 % |
+| 3B   | 110 | 5 | 20 | 3 | 54 | 28 | 25 % |
+| 7B   | 63 | 3 | 1 | 1 | 36 | 22 | 35 % |
+| 14B  | 49 | 11 | 3 | 2 | 25 | 8 | 16 % |
+
+- Ejemplos (7B): "Ñuñoa Sur" (Macul), "Comuna de Ñuñoa" (Puente Alto), Taltal → "Sierra Gorda". Ocurren
+  sobre todo cuando la herramienta falla: en vez de decir que no sabe, el modelo rellena.
+- El 1,5B "alucina poco" solo en apariencia: más de la mitad de sus fallos son bucles sin respuesta.
+- El 3B se abstiene más que los demás (20 fallos), lo que baja su tasa de alucinación.
+- **Por qué difiere del paper:** modelos chicos y cuantizados (vs. PaLM-540B), y una herramienta que
+  falla en el 42–65 % de las búsquedas con estos datos.
+- **Es una cota aproximada:** cuenta como alucinación respuestas correctas sin alias (14B: "St. Malo"
+  por "Saint-Malo") o calculadas a partir de lo leído (distancias, fechas). El paper usó revisión manual.
+- Una versión anterior de esta cifra (sin excluir abstenciones y aciertos parciales) daba 3B 26 % y
+  14B 20 %; la diferencia es solo de definición.

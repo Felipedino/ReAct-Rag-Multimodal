@@ -708,7 +708,7 @@ Detalle en `resultados/analisis_errores.md`; figura en `resultados/figura_princi
   Directa); es consistente con ella.
 - Directa está en el piso (≤ 8 %) en todas las celdas, así que las diferencias de ganancia entre celdas
   reflejan cuánto rinde ReAct, no cuánto sabe el modelo de memoria.
-- Efecto local: dirección consistente (Chile +4–7 puntos en los 3 modelos), no significativo.
+- Efecto local: dirección consistente (en la ganancia, Chile +4, +5, +6 y +6 puntos sobre no Chile, de 1,5B a 14B), no significativo.
 - La caída de ReAct en "muchos" está confundida con el tipo de pregunta (más "ciudad natal" en "pocos").
 - 45–65 % de las búsquedas de ReAct no encuentran página por exigir título exacto: buena parte del
   error es de interfaz con la herramienta.
@@ -749,3 +749,28 @@ Detalle en `resultados/analisis_errores.md`; figura en `resultados/figura_princi
   (la curva se aplana del 7B al 14B), desaparece la brecha chile_muchos vs. chile_pocos del 7B, y los
   bucles del 14B reformulan búsquedas descriptivas en vez de repetir.
 - La leyenda del panel (b) de la figura pasa a una fila arriba: con 4 modelos tapaba una barra de error.
+- **Informe ajustado a la rúbrica (25-11):** se reescribió más corto (~1.450 palabras de prosa,
+  sin contar tablas); se agregaron la justificación del dataset nuevo, la frase "fijado antes de
+  experimentar", una sección de conclusiones y una lista numerada de 10 errores concretos con su
+  hipótesis. La parte B imprime las trazas de esos errores y calcula el uso de sugerencias.
+- **Uso de sugerencias de `Buscar` (definición):** sobre todas las búsquedas fallidas de ReAct, se
+  cuenta si el paso siguiente es `Buscar` de un título de la lista "Similares" (sin distinguir
+  mayúsculas). Resultado: 7 / 15 / 21 / 23 % (1,5B / 3B / 7B / 14B). B estaba entre las sugerencias
+  80 veces en el 7B (buscado en el paso siguiente 17) y 65 en el 14B (10; 9 si se exige igualdad
+  exacta de mayúsculas, por "Qi Xi" vs. "Qi xi"). Otras definiciones (p. ej., dividir solo por las
+  búsquedas con paso siguiente) mueven las cifras en 1 punto.
+- El caso Láscar (7B, `chile_muchos_046`) se presenta como "responde el puente" y con su
+  clasificación automática real (`no_encontro_B`), no como error de lectura.
+- Se sacó LatamQA de las referencias del informe (sección 9 dice "leer antes de citar").
+- **Informe con 7 errores concretos** (antes 10), para acercarlo a 1–2 páginas: bucle del 1,5B, el 14B
+  que reformula sin usar sugerencias, Taltal, Láscar, RAG con ruido (Chacabuco, 7B, en test), EM
+  estricto y "Santiago" por defecto. Los demás siguen en `analisis_errores.md`.
+- **Alucinaciones vs. paper (0 % en ReAct, Tabla 2):** criterio automático = fallo con respuesta
+  concreta que no aparece en ninguna observación; se excluyen vacías, abstenciones y aciertos parciales.
+  11 / 25 / 35 / 16 % de los fallos (1,5B → 14B). Se calcula en la parte B del notebook; detalle en
+  `analisis_errores.md`, sección 7. Es una cota aproximada (cuenta "St. Malo" y respuestas calculadas).
+- **Entregables separados (25-11):** `notebook.ipynb` queda solo como informe (5 celdas de texto, la
+  figura incrustada como adjunto, sin código ni referencias a archivos internos). `experimento.ipynb`
+  es el ejecutable: suma una sección 5 sin GPU que corre `evaluate.py test`, genera
+  `figura_principal.png` y calcula las cifras de errores del informe (tipos de error, uso de
+  sugerencias y alucinaciones). Probada en local con las trazas del repo: cifras idénticas al informe.
