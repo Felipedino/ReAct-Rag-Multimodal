@@ -1,0 +1,20 @@
+{"id": "chile_pocos_072", "veredicto": "ok", "problemas": [], "alias": []}
+{"id": "chile_pocos_073", "veredicto": "ok", "problemas": [], "alias": []}
+{"id": "chile_pocos_074", "veredicto": "ok", "problemas": [], "alias": ["comuna de Quinchao"]}
+{"id": "chile_pocos_075", "veredicto": "ok", "problemas": [], "alias": ["Coquimbo", "Región de Coquimbo"]}
+{"id": "chile_pocos_076", "veredicto": "ok", "problemas": [], "alias": ["Biznaga de Oro a la Mejor Película", "la Biznaga de Oro"]}
+{"id": "chile_pocos_079", "veredicto": "ok", "problemas": [], "alias": ["Armada", "la Armada de Chile", "Armada chilena"]}
+{"id": "chile_pocos_080", "veredicto": "ok", "problemas": [], "alias": []}
+{"id": "chile_pocos_081", "veredicto": "mala", "problemas": ["7: Simón de la montaña es una película principalmente argentina (director argentino, estreno en Argentina); Chile solo figura como coproductor, así que el primer salto apenas trata sobre Chile.", "6: 'el actor que encabeza el reparto protagonista' depende solo del orden en que fragmento_A lista a los actores; no es una descripción robusta del puente."], "alias": ["El Ángel (2018)"]}
+{"id": "chile_pocos_083", "veredicto": "ok", "problemas": [], "alias": ["Perú", "virreinato del Perú", "Virreinato peruano"]}
+{"id": "chile_pocos_084", "veredicto": "ok", "problemas": [], "alias": ["Marga Marga", "provincia de Marga Marga"]}
+{"id": "chile_pocos_085", "veredicto": "ok", "problemas": [], "alias": ["Lagos", "Ricardo Lagos Escobar"]}
+{"id": "chile_pocos_086", "veredicto": "ok", "problemas": [], "alias": []}
+{"id": "chile_pocos_087", "veredicto": "ok", "problemas": [], "alias": []}
+{"id": "chile_pocos_091", "veredicto": "ok", "problemas": [], "alias": []}
+{"id": "chile_pocos_092", "veredicto": "ok", "problemas": [], "alias": ["Todos los Santos", "estrecho de Todos los Santos"]}
+{"id": "chile_pocos_093", "veredicto": "ok", "problemas": [], "alias": ["municipio de Voto"]}
+{"id": "chile_pocos_094", "veredicto": "ok", "problemas": [], "alias": ["isla Long", "isla de Long Island"]}
+{"id": "chile_pocos_095", "veredicto": "mala", "problemas": ["3: la pregunta ya delata al puente: 'el presidente' de un gobierno chileno entre 2022 y 2026 es Boric por conocimiento general, así que fragmento_A no hace falta."], "alias": ["Punta Arenas, Chile"]}
+{"id": "chile_pocos_096", "veredicto": "mala", "problemas": ["6: 'sir P.F.' viene de un fragmento cortado (P. F. Strawson); la pregunta queda con un nombre incompleto y confuso."], "alias": ["Riga, Letonia"]}
+{"id": "no_chile_muchos_000", "veredicto": "mala", "problemas": ["1: es dudoso que 1952 sea la respuesta correcta: Egipto obtuvo la independencia formal en 1922 y la república se proclamó en 1953; el dato de intro_B es discutible.", "6: 'capital soberana' es una expresión ambigua; no queda claro qué evento se pregunta (independencia, fin de la ocupación británica, revolución)."], "alias": []}

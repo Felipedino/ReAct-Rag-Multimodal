@@ -1,0 +1,20 @@
+{"id": "chile_muchos_096", "veredicto": "ok", "problemas": [], "alias": ["210 kilómetros", "210"]}
+{"id": "chile_muchos_097", "veredicto": "ok", "problemas": [], "alias": ["comuna de Parral"]}
+{"id": "chile_muchos_099", "veredicto": "mala", "problemas": ["7: la estepa patagónica está principalmente en Argentina y el borde atlántico que usa la pregunta es argentino; el primer salto no trata sobre Chile", "3: que el océano al este de la Patagonia es el Atlántico es conocimiento trivial; la pregunta se reduce a un dato general del Atlántico", "8: el puente (océano Atlántico) es una entidad global muy genérica"], "alias": ["Puerto Rico"]}
+{"id": "chile_pocos_000", "veredicto": "ok", "problemas": [], "alias": ["en 1614", "año 1614"]}
+{"id": "chile_pocos_001", "veredicto": "ok", "problemas": [], "alias": ["provincia de Llanquihue"]}
+{"id": "chile_pocos_003", "veredicto": "ok", "problemas": [], "alias": ["4 noviembre 1970", "el 4 de noviembre de 1970"]}
+{"id": "chile_pocos_004", "veredicto": "ok", "problemas": [], "alias": ["145 metros", "145"]}
+{"id": "chile_pocos_006", "veredicto": "ok", "problemas": [], "alias": ["Chinchorro", "cultura chinchorro"]}
+{"id": "chile_pocos_008", "veredicto": "mala", "problemas": ["5: fragmento_A dice que la feria 'era organizada' por FISA; la pregunta usa 'se realiza' en presente para un evento que ya no se realiza o cambió", "4: el Parque Cerrillos queda hoy en la comuna de Cerrillos (separada de Maipú en 1991), así que la comuna sede es discutible"], "alias": ["el 5 de abril de 1818"]}
+{"id": "chile_pocos_009", "veredicto": "ok", "problemas": [], "alias": ["provincia de Arauco"]}
+{"id": "chile_pocos_010", "veredicto": "ok", "problemas": [], "alias": ["comuna de Macul"]}
+{"id": "chile_pocos_011", "veredicto": "ok", "problemas": [], "alias": []}
+{"id": "chile_pocos_012", "veredicto": "ok", "problemas": [], "alias": ["CNI", "la Central Nacional de Informaciones", "Central Nacional de Informaciones (CNI)"]}
+{"id": "chile_pocos_013", "veredicto": "ok", "problemas": [], "alias": ["Hito 0", "el Hito Cero"]}
+{"id": "chile_pocos_014", "veredicto": "ok", "problemas": [], "alias": ["el Fuerte Aguayo"]}
+{"id": "chile_pocos_015", "veredicto": "ok", "problemas": [], "alias": ["Valdivia, Chile"]}
+{"id": "chile_pocos_017", "veredicto": "ok", "problemas": [], "alias": ["San Carlos de Ancud", "Villa de San Carlos"]}
+{"id": "chile_pocos_019", "veredicto": "mala", "problemas": ["1: intro_B dice 'más de 30 m', no 30 m; la respuesta propuesta es imprecisa", "6: la altura de la vid sin podar es un dato botánico vago ('puede alcanzar'); no hay una respuesta única y limpia para evaluar con EM"], "alias": ["más de 30 m", "30 metros", "más de 30 metros"]}
+{"id": "chile_pocos_020", "veredicto": "ok", "problemas": [], "alias": ["Monumento al Roto Chileno", "Roto chileno", "estatua del Roto chileno"]}
+{"id": "chile_pocos_021", "veredicto": "ok", "problemas": [], "alias": ["Señoret", "canal Señoret"]}

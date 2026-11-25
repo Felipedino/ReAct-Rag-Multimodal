@@ -1,0 +1,20 @@
+{"id": "chile_muchos_073", "veredicto": "ok", "problemas": [], "alias": ["6° S", "6 °S", "6 grados sur", "6°"]}
+{"id": "chile_muchos_074", "veredicto": "ok", "problemas": [], "alias": ["monocotiledóneas", "clase Liliopsida", "Liliopsida (monocotiledóneas)"]}
+{"id": "chile_muchos_076", "veredicto": "ok", "problemas": [], "alias": ["bosque de lechuzas", "koa lemu"]}
+{"id": "chile_muchos_078", "veredicto": "ok", "problemas": [], "alias": ["Cauquenes, Chile"]}
+{"id": "chile_muchos_079", "veredicto": "ok", "problemas": [], "alias": ["Coihaique", "Coyhaique, Chile"]}
+{"id": "chile_muchos_080", "veredicto": "ok", "problemas": [], "alias": ["20", "20 kilómetros", "veinte kilómetros", "20 km aproximadamente"]}
+{"id": "chile_muchos_081", "veredicto": "ok", "problemas": [], "alias": ["Barrancas", "comuna de Las Barrancas"]}
+{"id": "chile_muchos_082", "veredicto": "ok", "problemas": [], "alias": []}
+{"id": "chile_muchos_084", "veredicto": "ok", "problemas": [], "alias": ["el Instituto de Chile"]}
+{"id": "chile_muchos_085", "veredicto": "ok", "problemas": [], "alias": []}
+{"id": "chile_muchos_086", "veredicto": "ok", "problemas": [], "alias": ["XVII", "siglo 17", "s. XVII"]}
+{"id": "chile_muchos_087", "veredicto": "ok", "problemas": [], "alias": ["Lazio", "región del Lacio", "el Lacio"]}
+{"id": "chile_muchos_088", "veredicto": "ok", "problemas": [], "alias": ["el caliche"]}
+{"id": "chile_muchos_089", "veredicto": "mala", "problemas": ["3: Se adivina sin los textos: es de conocimiento común que el comandante en jefe del Ejército es un general; responder 'general' basta sin pasar por intro_B.", "2: 'general' a secas es una respuesta razonable que compite con 'general de Ejército' (habría que tratarla como alias, lo que vuelve la pregunta aún más trivial)."], "alias": ["general", "general de ejército"]}
+{"id": "chile_muchos_090", "veredicto": "mala", "problemas": ["2: El inicio de la guerra de la Independencia de Chile no es único: la historiografía chilena lo fecha también en 1810 (Primera Junta, como menciona el propio intro_B truncado) o en 1813 (inicio de las campañas militares); 1812 no es la única respuesta razonable."], "alias": []}
+{"id": "chile_muchos_091", "veredicto": "mala", "problemas": ["2: La fecha de fundación del Festival de Cannes es discutible: fue creado/proyectado en 1939 por Jean Zay (edición cancelada por la guerra) y su primera edición fue en 1946; 1939 es una respuesta razonable."], "alias": []}
+{"id": "chile_muchos_092", "veredicto": "ok", "problemas": [], "alias": []}
+{"id": "chile_muchos_093", "veredicto": "ok", "problemas": [], "alias": ["Trans Santiago", "sistema Transantiago"]}
+{"id": "chile_muchos_094", "veredicto": "ok", "problemas": [], "alias": ["Chacabuco", "puerto de Chacabuco"]}
+{"id": "chile_muchos_095", "veredicto": "mala", "problemas": ["3: Conocimiento trivial: que las islas de Oceanía (Polinesia) están en el océano Pacífico se sabe sin leer ningún texto; no requiere el salto por Freire.", "8: El puente 'Oceanía' es un continente, concepto amplio y genérico más que una entidad específica.", "2: Australia también limita con el océano Índico, por lo que 'Índico' podría argumentarse como respuesta parcial."], "alias": ["Pacífico", "el Pacífico", "océano Pacifico"]}
