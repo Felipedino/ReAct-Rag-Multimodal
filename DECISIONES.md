@@ -712,3 +712,24 @@ Detalle en `resultados/analisis_errores.md`; figura en `resultados/figura_princi
 - La caída de ReAct en "muchos" está confundida con el tipo de pregunta (más "ciudad natal" en "pocos").
 - 45–65 % de las búsquedas de ReAct no encuentran página por exigir título exacto: buena parte del
   error es de interfaz con la herramienta.
+
+---
+
+## 12. Notebook entregable (25-11)
+
+- **`notebook.ipynb`** en tres partes: (A) informe en celdas de texto, sacado de este archivo y de
+  `resultados/analisis_errores.md`; (B) reproducción de tablas y figura desde `resultados/*.jsonl`
+  sin GPU ni red; (C) corrida en vivo opcional de `correr.py 1.5B dev`, desactivada por defecto
+  (`CORRER_EN_VIVO = False`) para que "ejecutar todo" no instale vLLM ni pida GPU.
+- **Parte B en modo `wiki.OFFLINE`:** la clasificación de errores de RAG relee páginas desde la caché.
+  Faltaban 44 páginas en la caché local (vistas por RAG en Colab); se trajeron una vez y se suben
+  con el resto de `cache/wiki/`. Los CSV recalculados son idénticos a los de la corrida de Colab.
+- **La figura principal se genera en el notebook** (antes no había código que la produjera); no se
+  tocó `evaluate.py`. Las figuras se guardan y se muestran como imagen, porque `evaluate.py` fija
+  el backend `Agg` de matplotlib.
+- **Cifras del informe = redondeo de los CSV** (p. ej. 3B directa 0,03; ganancia 7B no Chile 0,53),
+  para que el texto calce con lo que imprime la parte B.
+- La parte C respalda las trazas de dev antes de correr y compara las respuestas nuevas con las
+  guardadas (con greedy deberían coincidir casi todas).
+- El 14B (corrido en Colab: directa y react, `MAX_MODEL_LEN = 6144`) no entra al informe: sus trazas
+  no están en el repo.
