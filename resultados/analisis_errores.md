@@ -121,3 +121,32 @@ tipo de artículo. No es evidencia de que ReAct funcione peor con temas populare
 - **Solo Qwen2.5 cuantizado (AWQ)**; un prompt few-shot fijo; sin CoT ni Act (ablaciones por tiempo).
 - **EM estricto:** subestima aciertos con palabras extra (ver F1).
 - **Cómputo:** Colab T4. Test 7B: ~11 min (incluye descarga); las 3 corridas de test < 1 h.
+
+## 6. Extra: Qwen2.5-14B-Instruct-AWQ
+
+Configuración distinta: solo directa y ReAct (sin RAG fijo, por tiempo), `max_model_len=6144`
+(lo que cabe en la T4 con `gpu_memory_utilization=0.95`). Ninguna trayectoria se cortó por contexto.
+Cómputo: ~4 min de carga, 17 s de directa, ~25 min de ReAct.
+
+| | Directa | ReAct | Ganancia ReAct − Directa |
+|---|---|---|---|
+| EM total | 0,06 [0,03–0,11] | 0,69 [0,62–0,76] | 0,63 [0,54–0,70] |
+| F1 total | 0,16 | 0,73 | |
+
+Ganancia por grupo: Chile 0,66 [0,56–0,76] · No Chile 0,60 [0,47–0,71] · Pocos 0,65 [0,55–0,76] ·
+Muchos 0,61 [0,47–0,72]. ReAct por celda: chile_pocos 0,68 · chile_muchos 0,75 · no_chile_pocos 0,73 ·
+no_chile_muchos 0,63.
+
+**Lectura:**
+1. **La ganancia sigue creciendo, pero menos:** 0,17 → 0,29 → 0,56 → 0,63. Del 7B al 14B los IC se
+   superponen; parece acercarse a un techo, en parte por la herramienta (punto 4).
+2. **Efecto local:** Chile +6 puntos sobre no Chile; la misma dirección en los 4 modelos, no significativo.
+3. **La brecha de popularidad del 7B desaparece:** chile_muchos 0,75 vs. chile_pocos 0,68 (en el 7B era
+   0,45 vs. 0,80). Refuerza la sección 3: no es que los temas populares sean peores para ReAct.
+4. **Errores (49 fallos):** no_encontro_B 21, max_pasos 11, no_encontro_A 10, leyo_mal 7, formato 0.
+   El 42 % de sus búsquedas no encuentra página (1,5B: 60 %, 3B: 65 %, 7B: 45 %).
+   **Sus bucles son distintos a los del 1,5B:** no repite, sino que reformula búsquedas descriptivas, como
+   si `Buscar` fuera un buscador ("Patricio Aylwin ciudad nacimiento", "Fundación de la comuna de Renca",
+   "Península del Sinaí en la época romana"); casi todas fallan por no ser títulos. Le falta una acción
+   para buscar dentro de una página (`lookup` en el paper) o un buscador tolerante.
+5. Directa en el piso también con 14B (≤ 10 % por celda): más parámetros no resuelven el multi-hop de memoria.

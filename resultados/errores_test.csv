@@ -278,6 +278,55 @@ no_chile_muchos_058,1.5B,react,no_chile_muchos,max_pasos,,Borujerd
 no_chile_muchos_069,1.5B,react,no_chile_muchos,no_encontro_A,Oradour-sur-Glane,Múnich
 no_chile_muchos_072,1.5B,react,no_chile_muchos,max_pasos,,Amiens
 no_chile_muchos_038,1.5B,react,no_chile_muchos,no_encontro_B,Qi xi,Cantón
+chile_pocos_087,14B,react,chile_pocos,no_encontro_B,2016,1926
+chile_pocos_071,14B,react,chile_pocos,max_pasos,,paltas
+chile_pocos_086,14B,react,chile_pocos,no_encontro_B,1977,1974
+chile_pocos_066,14B,react,chile_pocos,max_pasos,,1890
+chile_pocos_025,14B,react,chile_pocos,max_pasos,,1894
+chile_pocos_014,14B,react,chile_pocos,no_encontro_B,Base Aeronaval El Belloto,Fuerte Aguayo
+chile_pocos_065,14B,react,chile_pocos,no_encontro_A,Valparaíso,Birán
+chile_pocos_076,14B,react,chile_pocos,no_encontro_A,Palma de Oro,Biznaga de Oro
+chile_pocos_013,14B,react,chile_pocos,no_encontro_B,frontera con Perú,Hito Cero
+chile_pocos_048,14B,react,chile_pocos,no_encontro_B,La Reina,Puente Alto
+chile_pocos_059,14B,react,chile_pocos,max_pasos,,1852
+chile_pocos_010,14B,react,chile_pocos,max_pasos,,Macul
+chile_pocos_070,14B,react,chile_pocos,no_encontro_A,No se encuentra información sobre este historiador en ninguna de las búsquedas realizadas.,Cardenal Caro
+chile_muchos_097,14B,react,chile_muchos,no_encontro_A,Peñalolén,Parral
+chile_muchos_002,14B,react,chile_muchos,no_encontro_A,San Miguel,La Florida
+chile_muchos_073,14B,react,chile_muchos,no_encontro_B,22°S,6°S
+chile_muchos_086,14B,react,chile_muchos,no_encontro_B,XVIII,siglo XVII
+chile_muchos_059,14B,react,chile_muchos,max_pasos,,Cañete
+chile_muchos_019,14B,react,chile_muchos,no_encontro_B,1.220 km²,"20.405,1 km²"
+chile_muchos_082,14B,react,chile_muchos,no_encontro_A,1974,1976
+chile_muchos_005,14B,react,chile_muchos,leyo_mal,Tacna,Moquegua
+chile_muchos_094,14B,react,chile_muchos,no_encontro_B,fiordo de Aysén,Puerto Chacabuco
+chile_muchos_018,14B,react,chile_muchos,max_pasos,,Región del Maule
+no_chile_pocos_080,14B,react,no_chile_pocos,no_encontro_A,No se pudo determinar la fecha exacta,2010
+no_chile_pocos_008,14B,react,no_chile_pocos,max_pasos,,Quebec
+no_chile_pocos_092,14B,react,no_chile_pocos,no_encontro_A,No se encuentra información sobre la longitud del río Roda en el sudeste de Francia,812 km
+no_chile_pocos_000,14B,react,no_chile_pocos,no_encontro_B,Simón Bolívar,Andrés de Santa Cruz
+no_chile_pocos_001,14B,react,no_chile_pocos,no_encontro_B,Luis Bedoya Reyes,Raúl Salazar
+no_chile_pocos_061,14B,react,no_chile_pocos,no_encontro_B,Trujillo,Pacasmayo
+no_chile_pocos_005,14B,react,no_chile_pocos,no_encontro_B,Lambayeque,Chiclayo
+no_chile_pocos_084,14B,react,no_chile_pocos,leyo_mal,Pedro Pablo Kuczynski,José Jerí
+no_chile_pocos_060,14B,react,no_chile_pocos,no_encontro_A,Mérida,Guipúzcoa
+no_chile_pocos_032,14B,react,no_chile_pocos,no_encontro_B,Congreso de Loja,Congreso de Angostura
+no_chile_pocos_012,14B,react,no_chile_pocos,max_pasos,,San Luis
+no_chile_muchos_051,14B,react,no_chile_muchos,leyo_mal,St. Malo,Saint-Malo
+no_chile_muchos_027,14B,react,no_chile_muchos,no_encontro_A,Nickelodeon,TV Asahi
+no_chile_muchos_024,14B,react,no_chile_muchos,no_encontro_B,Nancy,Metz
+no_chile_muchos_098,14B,react,no_chile_muchos,leyo_mal,Tratado de París (1763),Tratado de París
+no_chile_muchos_095,14B,react,no_chile_muchos,no_encontro_B,Glen Weinstein,Christopher Sholes
+no_chile_muchos_047,14B,react,no_chile_muchos,leyo_mal,Islandia de Sajalín,isla de Sajalín
+no_chile_muchos_032,14B,react,no_chile_muchos,leyo_mal,Onryō,yūrei
+no_chile_muchos_010,14B,react,no_chile_muchos,no_encontro_B,1928,1951
+no_chile_muchos_084,14B,react,no_chile_muchos,no_encontro_B,China,Turquía
+no_chile_muchos_012,14B,react,no_chile_muchos,no_encontro_B,Mona Lisa,La Última Cena
+no_chile_muchos_026,14B,react,no_chile_muchos,no_encontro_B,1714,1876
+no_chile_muchos_083,14B,react,no_chile_muchos,max_pasos,,Arabia Pétrea
+no_chile_muchos_043,14B,react,no_chile_muchos,leyo_mal,Naha,Sapporo
+no_chile_muchos_069,14B,react,no_chile_muchos,max_pasos,,Múnich
+no_chile_muchos_038,14B,react,no_chile_muchos,no_encontro_B,Shandong,Cantón
 chile_pocos_087,3B,rag,chile_pocos,no_encontro_A,1954,1926
 chile_pocos_039,3B,rag,chile_pocos,no_encontro_A,1833,Constitución de 1833
 chile_pocos_009,3B,rag,chile_pocos,no_encontro_A,Antofagasta,Arauco

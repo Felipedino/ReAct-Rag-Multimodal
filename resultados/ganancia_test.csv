@@ -8,6 +8,15 @@ modelo,comparacion,agrupacion,grupo,n,ganancia_em,ic_lo,ic_hi
 1.5B,react - directa,popularidad,muchos,80,0.1125,0.0375,0.1875
 1.5B,react - directa,popularidad,pocos,80,0.225,0.125,0.325
 1.5B,react - directa,total,total,160,0.16875,0.10625,0.2375
+14B,react - directa,celda,chile_muchos,40,0.7,0.55,0.825
+14B,react - directa,celda,chile_pocos,40,0.625,0.475,0.775
+14B,react - directa,celda,no_chile_muchos,40,0.525,0.325,0.7
+14B,react - directa,celda,no_chile_pocos,40,0.675,0.525,0.825
+14B,react - directa,origen,chile,80,0.6625,0.5625,0.7625
+14B,react - directa,origen,no_chile,80,0.6,0.475,0.7125
+14B,react - directa,popularidad,muchos,80,0.6125,0.475,0.725
+14B,react - directa,popularidad,pocos,80,0.65,0.55,0.7625
+14B,react - directa,total,total,160,0.63125,0.54375,0.7
 3B,react - directa,celda,chile_muchos,40,0.325,0.175,0.475
 3B,react - directa,celda,chile_pocos,40,0.3,0.175,0.45
 3B,react - directa,celda,no_chile_muchos,40,0.275,0.125,0.45

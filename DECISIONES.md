@@ -733,3 +733,19 @@ Detalle en `resultados/analisis_errores.md`; figura en `resultados/figura_princi
   guardadas (con greedy deberían coincidir casi todas).
 - El 14B (corrido en Colab: directa y react, `MAX_MODEL_LEN = 6144`) no entra al informe: sus trazas
   no están en el repo.
+- **`experimento.ipynb` aparte para la corrida completa en GPU** (reemplaza en orden a
+  `prueba_colab.ipynb`): preparar (GPU, clonar/pull, instalar vLLM) → prueba → dev → test (un modelo
+  por celda, para retomar si Colab se corta) → extra 14B → descargar `resultados/` y `cache/`.
+  El entregable (`notebook.ipynb`) no corre el experimento completo porque toma ~1,5 h con el 14B.
+- **14B en el experimento:** solo directa y react, con `MAX_MODEL_LEN = 6144` aplicado con `sed`
+  y restaurado con `git checkout llm.py` (la caché KV del 14B en la T4 es de ~7.000 tokens y vLLM
+  exige que quepa una petición de largo máximo). Se cuenta cuántas trazas terminan por `contexto`.
+- La figura del notebook usa 4 tonos de rojo si aparecen las trazas del 14B (probado con trazas
+  simuladas).
+- **Resultados del 14B incorporados (25-11):** `evaluate.py` los toma solo (`ORDEN_MODELOS` ya tenía
+  14B); las trazas de 1.5B/3B/7B no cambiaron y los CSV recalculados en local (offline) son idénticos
+  a los de Colab. El informe del notebook los muestra como "extra" (otra configuración: sin RAG,
+  contexto 6144). Hallazgos en `resultados/analisis_errores.md`, sección 6: ganancia 0,63 [0,54–0,70]
+  (la curva se aplana del 7B al 14B), desaparece la brecha chile_muchos vs. chile_pocos del 7B, y los
+  bucles del 14B reformulan búsquedas descriptivas en vez de repetir.
+- La leyenda del panel (b) de la figura pasa a una fila arriba: con 4 modelos tapaba una barra de error.
